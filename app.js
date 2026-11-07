@@ -26,16 +26,7 @@
           <h1 id="hero-heading"><span>${escape(content.hero.title)}</span><strong>${escape(content.hero.accent)}</strong></h1>
           <p>${escape(content.hero.subtitle)}</p>
           ${contactLink(content.contact.button)}
-          <svg class="hero-wave" viewBox="0 0 1100 150" fill="none" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-            <defs>
-              <linearGradient id="hero-line" x1="30" y1="110" x2="1070" y2="65" gradientUnits="userSpaceOnUse"><stop stop-color="#2455ff" stop-opacity="0"/><stop offset=".22" stop-color="#2455ff"/><stop offset=".62" stop-color="#168fff"/><stop offset=".78" stop-color="#76f5ff"/><stop offset="1" stop-color="#1475ff" stop-opacity="0"/></linearGradient>
-              <linearGradient id="hero-silk" x1="720" y1="130" x2="850" y2="20" gradientUnits="userSpaceOnUse"><stop stop-color="#073298" stop-opacity="0"/><stop offset=".45" stop-color="#0861e5" stop-opacity=".12"/><stop offset=".72" stop-color="#10baff" stop-opacity=".7"/><stop offset="1" stop-color="#04245a" stop-opacity="0"/></linearGradient>
-              <filter id="hero-glow" x="-10%" y="-70%" width="120%" height="240%"><feGaussianBlur stdDeviation="7"/></filter>
-            </defs>
-            <path d="M10 58C190 82 250 132 470 132S740 126 815 92 914 18 1090 16" stroke="url(#hero-line)" stroke-width="15" opacity=".5" filter="url(#hero-glow)"/>
-            <path d="M10 58C190 82 250 132 470 132S740 126 815 92 914 18 1090 16C950 7 925 0 848 21S778 110 670 126C575 141 400 146 270 116S105 64 10 58Z" fill="url(#hero-silk)"/>
-            <path d="M10 58C190 82 250 132 470 132S740 126 815 92 914 18 1090 16" stroke="url(#hero-line)" stroke-width="1.5"/>
-          </svg>
+          <img class="hero-wave" src="assets/hero-glow.webp" alt="" width="1600" height="533" aria-hidden="true" decoding="async">
         </section>
         <section id="about" class="about container section" aria-labelledby="about-heading">
           <div class="section-title section-title--center"><h2 id="about-heading">${escape(content.about.title)}</h2><p>${escape(content.about.subtitle)}</p></div>
@@ -78,6 +69,20 @@
     </div>`;
 
   const topicToggles = [...document.querySelectorAll('.topic-toggle')];
+  const topicsGrid = document.querySelector('.topics-grid');
+  const topicCards = [...topicsGrid.children];
+  const twoColumns = window.matchMedia('(max-width: 980px)');
+  function arrangeTopics() {
+    const columns = Array.from({ length: twoColumns.matches ? 2 : 4 }, () => {
+      const column = document.createElement('div');
+      column.className = 'topics-column';
+      return column;
+    });
+    topicCards.forEach((card, index) => columns[index % columns.length].append(card));
+    topicsGrid.replaceChildren(...columns);
+  }
+  arrangeTopics();
+  twoColumns.addEventListener('change', arrangeTopics);
   function setTopic(button, open) {
     const panel = document.getElementById(button.getAttribute('aria-controls'));
     button.setAttribute('aria-expanded', String(open));
