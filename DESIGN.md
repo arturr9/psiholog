@@ -1,319 +1,317 @@
 ---
 name: "Ислам — психолог"
-description: "Portrait-led dark landing page with Montserrat, neon ribbons and Tiffany contact actions."
+description: "Centered Tiffany-highlight typography, portrait-led panels and static neon linework."
 colors:
-  bg: "#030c15"
-  surface: "#07131e"
-  text: "#f6f7fa"
-  muted: "#d0d6df"
-  tiffany: "#12e5d5"
-  blue: "#008bdf"
-  red: "#fa3762"
-  border: "#34434f"
-  blue-surface: "#041a2a"
-  red-surface: "#18101c"
-  cyan-surface: "#071d26"
-  blue-border: "#235673"
-  red-border: "#684050"
-  cyan-border: "#345763"
-  blue-accent: "#00b6f4"
-  red-accent: "#fc4874"
-  cyan-accent: "#13dce4"
-  lead-surface: "#032036"
-  lead-border: "#0499d2"
-  contact-ink: "#001719"
-  contact-hover: "#61f2e5"
+  bg: "#090c14"
+  surface: "#191d27"
+  surface-2: "#121722"
+  text: "#f8f9fb"
+  muted: "#c8ccd5"
+  tiffany: "#53e5d0"
+  blue: "#2455ff"
+  red: "#ff304e"
+  line: "#3a4352"
+  white: "#fff"
+  highlight-ink: "#07100f"
+  tiffany-ink: "#06110f"
+  supporting-text: "#eef0f4"
+  red-hover: "#ff4962"
+  tiffany-hover: "#75efdc"
+  link-hover: "#83f2e1"
 typography:
   display:
     fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "clamp(56px, 6.4vw, 82px)"
-    fontWeight: 750
+    fontSize: "clamp(58px, 7vw, 96px)"
+    fontWeight: 820
     lineHeight: 1.02
-    letterSpacing: "-0.035em"
+    letterSpacing: "-0.04em"
   headline:
     fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "clamp(32px, 4vw, 47px)"
-    fontWeight: 750
-    lineHeight: 1.15
-    letterSpacing: "-0.035em"
-  title:
+    fontSize: "clamp(44px, 5vw, 66px)"
+    fontWeight: 820
+    lineHeight: 1
+    letterSpacing: "-0.04em"
+  topic-heading:
     fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "27px"
-    fontWeight: 750
-    lineHeight: 1.12
+    fontSize: "clamp(44px, 5vw, 64px)"
+    fontWeight: 820
+    lineHeight: 1.05
+    letterSpacing: "-0.04em"
+  information-heading:
+    fontFamily: "Montserrat, Arial, sans-serif"
+    fontSize: "40px"
+    fontWeight: 800
+    lineHeight: 1.1
+    letterSpacing: "-0.04em"
+  value-title:
+    fontFamily: "Montserrat, Arial, sans-serif"
+    fontSize: "22px"
+    lineHeight: 1.05
     letterSpacing: "-0.03em"
-  lead-title:
-    fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "37px"
-    fontWeight: 750
-    lineHeight: 1.12
-    letterSpacing: "-0.03em"
-  body:
-    fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "23px"
-    fontWeight: 450
-    lineHeight: 1.22
-    letterSpacing: "-0.025em"
-  compact-body:
-    fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "17px"
-    fontWeight: 450
-    lineHeight: 1.26
-    letterSpacing: "-0.015em"
-  label:
-    fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "15px"
-    fontWeight: 650
-  contact:
-    fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "23px"
-    fontWeight: 750
-    lineHeight: 1.2
   topic-title:
     fontFamily: "Montserrat, Arial, sans-serif"
-    fontSize: "24px"
-    fontWeight: 700
-    lineHeight: 1.15
-    letterSpacing: "-0.035em"
+    fontSize: "20px"
+    fontWeight: 720
+    lineHeight: 1.1
+    letterSpacing: "-0.03em"
+  subtitle:
+    fontFamily: "Montserrat, Arial, sans-serif"
+    fontSize: "22px"
+    fontWeight: 450
+    lineHeight: 1.35
+  body:
+    fontFamily: "Montserrat, Arial, sans-serif"
+    fontSize: "15px"
+    lineHeight: 1.5
   panel-body:
     fontFamily: "Montserrat, Arial, sans-serif"
+    fontSize: "14px"
+    lineHeight: 1.5
+  label:
+    fontFamily: "Montserrat, Arial, sans-serif"
+    fontSize: "14px"
+    fontWeight: 550
+  button:
+    fontFamily: "Montserrat, Arial, sans-serif"
     fontSize: "16px"
-    fontWeight: 450
-    lineHeight: 1.55
+    fontWeight: 700
 rounded:
-  card: "18px"
-  capsule: "100px"
-  nav-link: "30px"
-  mobile-menu: "16px"
-  mobile-link: "8px"
-  topic-focus: "15px"
+  panel: "34px"
+  panel-phone: "24px"
+  card: "16px"
+  button: "14px"
+  hero-highlight: "24px"
+  hero-highlight-phone: "13px"
+  approach-note: "20px"
+  disclosure: "10px"
   round: "50%"
 spacing:
-  gap-tight: "12px"
-  gap-small: "14px"
-  gap-card: "16px"
-  gap-wide: "20px"
-  inset: "24px"
-  section-heading-gap: "30px"
+  tight: "8px"
+  small: "12px"
+  card: "14px"
+  medium: "18px"
+  large: "24px"
+  section: "40px"
 components:
-  button-contact:
+  button-red:
+    backgroundColor: "{colors.red}"
+    textColor: "{colors.white}"
+    typography: "{typography.button}"
+    rounded: "{rounded.button}"
+    padding: "12px 26px"
+  button-red-hover:
+    backgroundColor: "{colors.red-hover}"
+  button-tiffany:
     backgroundColor: "{colors.tiffany}"
-    textColor: "{colors.contact-ink}"
-    typography: "{typography.contact}"
-    rounded: "{rounded.capsule}"
-    padding: "14px 34px"
-  button-contact-hover:
-    backgroundColor: "{colors.contact-hover}"
-    textColor: "{colors.contact-ink}"
-    rounded: "{rounded.capsule}"
-  button-contact-footer:
-    backgroundColor: "{colors.tiffany}"
-    textColor: "{colors.contact-ink}"
-    rounded: "{rounded.capsule}"
-    padding: "14px 34px"
+    textColor: "{colors.tiffany-ink}"
+    typography: "{typography.button}"
+    rounded: "{rounded.button}"
+    padding: "12px 26px"
+  button-tiffany-hover:
+    backgroundColor: "{colors.tiffany-hover}"
   navigation:
     textColor: "{colors.text}"
     typography: "{typography.label}"
-    rounded: "{rounded.capsule}"
-    padding: "5px 12px"
-  about-label:
+  header-action:
     textColor: "{colors.tiffany}"
-    rounded: "{rounded.capsule}"
-    padding: "5px 24px"
-  card-blue:
-    backgroundColor: "{colors.blue-surface}"
+  hero-highlight:
+    backgroundColor: "{colors.tiffany}"
+    textColor: "{colors.highlight-ink}"
+    rounded: "{rounded.hero-highlight}"
+    padding: "2px 20px 8px"
+  value-card:
+    backgroundColor: "#0c1018e8"
     textColor: "{colors.text}"
     rounded: "{rounded.card}"
-  card-red:
-    backgroundColor: "{colors.red-surface}"
+    padding: "24px"
+  approach-note:
+    backgroundColor: "#10151ee8"
+    rounded: "{rounded.approach-note}"
+    padding: "14px 24px"
+  topic-card:
     textColor: "{colors.text}"
     rounded: "{rounded.card}"
-  card-cyan:
-    backgroundColor: "{colors.cyan-surface}"
-    textColor: "{colors.text}"
-    rounded: "{rounded.card}"
-  card-lead:
-    backgroundColor: "{colors.lead-surface}"
-    textColor: "{colors.text}"
-    rounded: "{rounded.card}"
-    padding: "32px 40px"
   topic-toggle:
     textColor: "{colors.text}"
     typography: "{typography.topic-title}"
-    padding: "19px 27px"
     width: "100%"
+    padding: "22px 20px"
   topic-panel:
     textColor: "{colors.muted}"
     typography: "{typography.panel-body}"
-  detail-card:
-    textColor: "{colors.text}"
-    rounded: "{rounded.card}"
-    padding: "22px 32px"
+    padding: "0 20px 20px"
+  education-disclosure:
+    backgroundColor: "#ffffff05"
+    rounded: "{rounded.disclosure}"
+  education-summary:
+    padding: "9px 14px"
 ---
 
 # Design System: Ислам — психолог
 
+## Уточнение утверждённого макета — 7 ноября 2026
+
+Шапка и первый экран сохранены. Блок «Обо мне» использует почти чёрную поверхность, компактную сцену высотой 390px и исходный портрет шириной 360px на компьютере, 270px на телефоне. Четыре карточки окружают портрет на компьютере и следуют за ним на телефоне. Декоративные линии заменены растровым изображением `assets/glass-ribbon.png`, созданным ImageGen по согласованному превью; синий исходник получает красный и Tiffany-варианты через CSS hue-rotate. Карточки тем имеют высоту кнопки 144px на компьютере и 103px на телефоне, сохраняют реальные заголовки и раскрывающиеся описания. Изображения декоративны, не получают фокус и не мешают нажатию.
+
 ## Overview
 
-**Creative North Star: "Portrait and neon ribbons"**
+**Creative North Star: "Tiffany headline and portrait stage"**
 
-The supplied reference establishes a near-black blue field, an unchanged portrait, large white Montserrat and fine static neon ribbons. “Portrait and neon ribbons” names those existing elements; it is a description of the implemented reference, not a new creative direction.
+The finished replacement follows the supplied reference: a centered two-line Montserrat statement, a Tiffany highlight on its second line, a red contact action and a static blue light line. “Tiffany headline and portrait stage” describes this implemented visual authority rather than proposing a new concept.
 
-Tiffany capsules carry contact actions, while blue, red and cyan distinguish the translucent card treatments. Borders, low-opacity gradients and clipped vector curves give the page depth. The composition is dense enough to preserve the compact reference while retaining generous introductory type.
+A centered original portrait anchors the large about panel, surrounded by four compact value cards. Dark gradients, rounded containers and thin colored strokes continue through the topic, information and closing panels. The photograph keeps the real person's appearance; the surrounding layout and CSS masks provide the composition.
 
 **Key Characteristics:**
 
-- Locally served Montserrat with strong Cyrillic headlines and closely tracked titles.
-- Near-black blue surfaces, white text and Tiffany contact capsules.
-- Thin colored borders and static blue, red and cyan SVG ribbons.
-- An unchanged supplied portrait with CSS edge masks.
-- Asymmetric approach cards, compact topic cards and explicit keyboard states.
+- Locally served Montserrat with heavy, tightly tracked display type.
+- Near-black ground, dark rounded panels and Tiffany/blue/red accents.
+- A highlighted second headline line and a separate portrait-led about stage.
+- Four-column desktop topics, two-column tablet and phone topics.
+- Static line illustrations, visible keyboard focus and native disclosure controls.
 
-This document records the finished source in `styles.css`, `app.js`, `content.js` and `index.html`. The user-supplied visual authority is `.impeccable/reference.png`; product and surface context remain in `PRODUCT.md` and `.impeccable/surface.md`. Frontmatter owns reusable primitives; the sidecar records motion, breakpoints and renderable component examples.
+This refresh supersedes the earlier visual world. Evidence: `PRODUCT.md`, `.impeccable/surfaces/index-html.md`, `styles.css`, `app.js`, `content.js` and `index.html`. The source files are authoritative for exact implementation; the direction contract identifies the supplied reference. This is a source-based record, not a new visual proposal.
 
 ## Colors
 
-Cool near-black grounds the palette; electric blue, red and Tiffany supply light rather than broad opaque decoration.
+The frontmatter preserves source color values; cool dark neutrals support clear Tiffany, electric-blue and red emphasis.
 
 ### Primary
 
-- **Tiffany** (`tiffany`): contact action fill, outlined personal label, selection background, keyboard outline and link hover.
-- **Contact ink / Contact hover** (`contact-ink`, `contact-hover`): dark lettering on the Tiffany action and its brighter pointer-hover fill.
+- **Tiffany** (`tiffany`): hero highlight, brand dot, closing action, inline contact links, selection and keyboard focus.
+- **Tiffany hover / Tiffany ink** (`tiffany-hover`, `tiffany-ink`): closing-action hover fill and its dark text.
 
 ### Secondary
 
-- **Electric blue** (`blue`): source palette token; rendered blue cards use the more specific blue surface, border and accent tokens.
-- **Blue card treatment** (`blue-surface`, `blue-border`, `blue-accent`): cool card face, resting outline and interactive outline.
-- **Lead blue treatment** (`lead-surface`, `lead-border`): emphasized approach card, with an additional upper-left radial wash.
+- **Electric blue** (`blue`): topic-heading highlight, blue line illustrations and blue topic open/hover outlines. The hero wave adds its own blue/cyan gradient and blurred stroke.
 
 ### Tertiary
 
-- **Neon red** (`red`): source palette token; rendered red cards use the red surface, border and accent tokens.
-- **Red card treatment** (`red-surface`, `red-border`, `red-accent`): warm card face and outlines.
-- **Cyan card treatment** (`cyan-surface`, `cyan-border`, `cyan-accent`): Tiffany-adjacent card face and outlines.
+- **Signal red** (`red`): hero and consultation actions, red line illustrations, red topic open/hover outlines.
+- **Red hover** (`red-hover`): fine-pointer primary-action hover.
 
 ### Neutral
 
-- **Night background** (`bg`): page base and browser theme color.
-- **Base surface** (`surface`): shared card foundation before the blue/red/cyan variants.
-- **Soft white** (`text`): primary text and button glyphs.
-- **Muted white** (`muted`): expanded topic descriptions.
-- **Structural border** (`border`): shared card outline before variant overrides.
+- **Night ground** (`bg`): page and browser theme background.
+- **Panel / Secondary panel / Structural line** (`surface`, `surface-2`, `line`): declared source palette primitives. Finished panel fills and borders use the specific gradients and literal values recorded in component snippets; these three properties are not directly assigned to a rendered selector.
+- **Main text / Muted text** (`text`, `muted`): default light type and lower-emphasis descriptions.
+- **White / Highlight ink / Supporting text** (`white`, `highlight-ink`, `supporting-text`): red-action text and glyphs, dark hero-highlight text, and supporting hero/information text.
+- **Link hover** (`link-hover`): article/footer link hover.
 
-SVG ribbon gradients have their own illustrated blue, red and cyan stops in `app.js`; they are artwork, not extra UI status colors. The sidecar's synthesized tonal ramps are preview metadata, not implemented CSS scales.
+**The Highlight Roles Rule.** Use Tiffany for the hero's highlighted phrase and closing action, blue for the topic heading highlight, and red for the primary contact actions.
+
+The sidecar's eight-step tonal strips are synthesized preview metadata, not additional CSS tokens.
 
 ## Typography
 
 **Display Font:** Montserrat (Arial, sans-serif fallback).  
 **Body Font:** Montserrat (Arial, sans-serif fallback).
 
-A local variable font supplies weights (100–900), loaded with `font-display: swap` and preloaded in the document head. The system uses strong, closely tracked headings and medium-weight explanatory text; no separate serif or mono family is implemented.
+The local variable font covers weights (100–900), uses `font-display: swap`, and is preloaded in `index.html`. Heavy display text and close tracking establish the hierarchy; regular explanatory text remains quieter. No mono or serif family is implemented.
 
-### Hierarchy
+- **Display:** `display` describes the two-line hero. Its second line uses the same weight (820), line-height (1), and a Tiffany rectangle.
+- **Headline:** `headline` describes the centered about title. Topic and information headings have their own frontmatter roles. The closing heading uses (clamp(40px, 5vw, 64px)), weight (820), line-height (1), tracking (-0.04em).
+- **Value title / Topic title:** `value-title` and `topic-title` distinguish compact static statements from expandable topic controls.
+- **Subtitle:** `subtitle` describes the hero paragraph, balanced and limited to (600px). About subtitles are (20px); information subtitles are (16px).
+- **Body:** `body` describes the about paragraph, centered within (760px). `panel-body` describes expanded topics.
+- **Label / Button:** `label` is ordinary desktop navigation; `button` is the primary contact control. Header contact links are (14px), weight (700). Brand type is (24px), weight (800), tracking (-0.035em).
 
-- **Display:** the `display` token is the hero heading, constrained to (11ch), balanced, with a maximum implemented size of (82px).
-- **Headline:** the `headline` token is the section-heading scale; section rules continue to the right.
-- **Title:** approach-card headings use `title`; the large left approach card uses `lead-title` and normal wrapping. Its desktop width limit is (420px).
-- **Body:** `body` records the personal statement. The hero subtitle instead uses (clamp(21px, 2.5vw, 30px)), weight (450), line-height (1.22), tracking (-0.025em), and a width limit of (510px).
-- **Compact body:** `compact-body` records regular approach-card descriptions; the lead description is (22px), with a (370px) width limit.
-- **Label:** `label` records navigation links. The outlined personal label is (16px), weight (600), line-height (1.2).
-- **Contact:** `contact` records the hero action. The footer version is (19px) with the same weight and line-height.
-- **Topic title / Panel body:** `topic-title` and `panel-body` pair a strong control label with a quieter, more open explanatory paragraph.
-- Detail titles are (29px), weight (700), line-height (1.2), tracking (-0.03em); their supporting text is (19px), weight (450), line-height (1.3), tracking (-0.02em).
-
-Responsive type changes follow the exact breakpoint cascade below. Preserve natural Cyrillic wrapping instead of inserting hard line breaks.
+Mobile overrides are explicit, rather than a single proportional scale: hero (clamp(40px, 12vw, 58px)), about heading (36px), topic heading (34px), information heading (29px), closing heading (36px), topic controls (14px), topic descriptions (12px), about copy (13px). At (360px) or narrower, the hero is (38px), topic controls (13px) and value titles (14px).
 
 ## Layout
 
-The desktop container is centered at `min(1180px, calc(100% - 104px))`. The header is a horizontal brand/navigation pair; the intro positions text left and the portrait right. At base desktop size, the intro is at least (737px) tall with (76px) top padding; the personal statement follows the hero after (114px). The portrait is absolutely positioned at (-36px) top and (-70px) right, width (730px), limited to (76%) of the intro.
+The base container is centered at `min(1200px, calc(100% - 64px))`. The desktop header is a horizontal brand/navigation row, with (28px) gaps and (26px) vertical padding. Sections follow with (40px) top spacing.
 
-The approach grid uses columns (1.35fr 1fr), two equal rows and gaps (16px 20px). Its lead card spans both rows. Topics use a 12-track grid: the first six cards each span four tracks; the final two each span six, producing **3/3/2** rows. Topic gaps are (14px 16px), and cards align to the start so an expanded card does not stretch its neighbor. Details use two equal columns with (28px) between them. The footer aligns its heading, action and channel horizontally.
+The centered hero is at least (500px) tall with (40px) top padding. Its subtitle follows after (22px); its contact button follows after (24px). The static wave sits at the hero bottom, spanning (94%) width and (155px) height.
 
-| Source query | Finished behavior |
+The about panel has (36px 30px 0) padding. Its stage is (520px) tall: the portrait is centered absolutely at (58%) width, capped at (650px), with its bottom at (-52px). Four value cards occupy two (180px) columns around it; the stage note sits centered near the lower edge. This is an overlapping stage, not an equal-column text/photo layout.
+
+Topics use **four equal columns**, (14px) gaps, (34px) top spacing and start alignment. There are eight topics. The combined information panel uses **two equal columns**, (32px 42px) padding and a vertical divider before consultation. The closing panel centers its title and action vertically; the footer returns to a horizontal brand/contact row.
+
+| Source query | Finished responsive behavior |
 | --- | --- |
-| min-width (1600px) | Intro top padding becomes (80px); the container still caps at (1180px). |
-| max-width (1120px), min-width (681px) | Container has (48px) side gutters; intro is (610px) minimum height with (49px) top padding. Hero is (65px), subtitle (26px), personal body (20px). Portrait is (600px) wide at (-16px) top and (-84px) right. Approach gaps are (14px 20px), compact cards have (102px) minimum height; lead heading is (33px), lead body (20px). Topics retain 3/3/2 with (12px 16px) gaps; toggles are (60px) minimum height with (21px) text. Detail cards have (93px) minimum height; footer padding is (42px) vertically. |
-| max-width (900px), min-width (681px) | Container has (28px) side gutters. Intro minimum height is (600px), padding top (60px); hero (54px), subtitle (22px), personal body (18px). Portrait is (630px) wide, limited to (80%), at (5px) top and (-60px) right. Topics become **two equal columns**, with no special final-row spans; labels are (18px), descriptions (15px). Footer wraps and its contact channel occupies a full row. |
-| max-width (680px) | Container has (20px) side gutters. A (44px) round menu control replaces the visible navigation row. Intro becomes a vertical flex layout: hero, full-width portrait, then personal statement; top padding is (36px) with no minimum height. Hero is (clamp(40px, 10.7vw, 68px)), line-height (1.04), tracking (-0.04em). Subtitle is (clamp(19px, 4.8vw, 25px)), line-height (1.3). Hero action is (54px) minimum height, (190px) minimum width, with (20px) text. Personal body is (20px), line-height (1.4). Section headings are (clamp(30px, 7.9vw, 42px)). Approach, topics and details become **one column**. |
-| max-width (360px) | Container has (16px) side gutters; brand (19px), hero (39px), subtitle and personal body (18px), section title (29px), lead-card title (29px), topic label (20px), footer heading (35px), channel (15px). |
+| max-width (980px) | Container becomes `min(100% - 40px, 880px)`. Nav gaps become (16px), regular nav text (12px), hero minimum height (450px), stage height (490px), value columns (155px), value minimum height (116px), value padding (18px), value titles (19px). Topics become **two columns**. |
+| max-width (760px) | Container has (14px) side gutters; large-panel radius becomes (24px). Header padding is (20px), brand (20px), menu trigger (42px). Hero minimum height is (350px), top padding (14px); subtitle is (16px), limited to (300px). Sections use (18px) top spacing. |
+| max-width (360px) | Container has (10px) side gutters. Hero, value and topic type shrink as recorded above; footer stacks vertically and aligns to the start. |
 
-On phones, approach cards use (25px) padding and (144px) minimum height; the lead uses (27px) padding and (230px) minimum height. Their headings are (26px) and (32px); at the narrowest breakpoint horizontal padding becomes (22px). Topic gaps are (12px); controls have (77px) minimum height and (23px 24px) padding, with (22px) labels. Details use (24px) padding and (120px) minimum height. The footer stacks with (24px) gaps and (53px 0 67px) padding.
+At (760px) and below, the about stage becomes a vertical flex layout: portrait, overlapping approach note, then the two-by-two value grid. The portrait extends beyond panel padding with width `calc(100% + 28px)` and margins (-14px). The note overlaps it by (-42px); value gaps are (8px), minimum height (96px), padding (12px). The about copy becomes left aligned.
 
-The phone portrait extends to the viewport edges with width `calc(100% + 40px)` and horizontal margins (-20px), changing to (+32px / -16px) at the smallest breakpoint. A vertical mask blends its top and bottom. The page shell clips decorative overflow; illustrations are positioned independently of readable content.
+Phone topics **remain two columns**, with (8px) gaps, (20px) top spacing and (84px) minimum toggle height. The information panel becomes one column with (24px 16px) padding; consultation moves below a horizontal divider. The closing panel uses (170px) minimum height and (28px 14px) padding. Footer text reduces to (13px) brand and (10px) contact.
 
 ## Elevation & Depth
 
-The resting system uses colored borders, translucent surface washes and local radial light. Cards have no resting box shadow. The desktop navigation has a faint white linear wash; section rules fade horizontally. The lead approach card has a stronger upper-left blue radial wash. Static SVG ribbons are clipped by card shapes and use layered translucent fills and thin gradient edges. The portrait is blended into the page with intersecting horizontal and vertical masks on desktop.
+Dark gradient fills, subtle outlines and localized light provide depth. The about panel uses a broad blue-gray radial field; topics, information and closing panels use restrained dark linear gradients. The portrait has intersecting edge masks on desktop and a bottom fade on phones.
 
 ### Shadow Vocabulary
 
-- **Contact hover glow:** `0 8px 35px #09dcc32b`, enabled only for a fine pointer that supports hover. There is no matching card lift.
+- **Red action at rest:** `0 12px 28px #ff304e26`.
+- **Red action on fine-pointer hover:** `0 14px 34px #ff304e3b`.
+- **Open phone navigation surface:** `0 18px 45px #0009`.
 
-**The Static Artwork Rule.** Portrait, ribbons and ambient gradients remain still; motion is limited to interface state and one-time section reveals.
+The hero line uses an SVG Gaussian blur (9) on a wide blue stroke beneath its fine gradient stroke. This is static light, not an animation. Cards have no lift shadow.
 
-Sections reveal once when at least (8%) enters the viewport, from opacity (0.65) and translateY (14px) to opacity (1) and translateY (0), over (480ms) with the source ease-out curve. Content is visible before observation; the reveal never gates access to content.
+**The Static Linework Rule.** Keep the hero light line, small SVG illustrations and portrait still; only control states transition.
 
-For `prefers-reduced-motion: reduce`, CSS sets smooth scrolling to auto and disables every CSS animation and transition, including pseudo-elements. JavaScript skips section observation on initial reduced preference; if the preference changes to reduced motion during use, it disconnects the observer and finishes active Web Animations.
+There are no entrance reveals or Web Animations in the finished script. Reduced-motion CSS sets scrolling to auto and disables every animation and transition, including pseudo-elements.
 
 ## Shapes
 
-Cards use the shared gently rounded `card` radius; nav and contact actions use the `capsule` radius. The personal label is also a capsule but stays outlined and noninteractive. Desktop nav links use the smaller `nav-link` rounding. On phones, the floating navigation is a rounded rectangle (`mobile-menu`), its links use `mobile-link`, and the menu trigger is circular (`round`).
+Large panels use `panel` radius; mobile switches that token to `panel-phone`. Value and topic cards use `card`; contact buttons use `button`, with rectangular rounded shapes rather than capsules. Hero highlight, approach note and education disclosures have distinct radii recorded in the frontmatter. Phone navigation uses (16px) corners and a round trigger. Most outlines are (1px).
 
-Card outlines are (1px). The topic glyph is a (17px) plus built from two (2px) strokes with rounded ends; the vertical stroke disappears to produce a minus. Decorative artwork is clipped within surfaces. The topic focus ring uses its own `topic-focus` radius to remain visible inside the clipped card.
+The hero highlight has a (24px) corner radius on desktop and (13px) on phones; the blue topic-heading highlight uses (14px), changing to (9px) on phones. Topic plus glyphs use (16px) strokes on desktop, (13px) on phones. Static line illustrations are thin, rounded SVG paths, not the previous folded ribbons.
 
 ## Components
 
 ### Buttons
 
-The contact action is a solid Tiffany capsule, with the sizes and padding defined in the frontmatter. At rest it has no shadow. Fine-pointer hover changes its fill to `contact-hover` and adds the documented glow. Active press scales it to (0.97); the transform transition is (150ms) using the source ease-out curve. Fill changes take (180ms ease), shadow changes (220ms ease). Footer actions use a smaller text and minimum-size variant. Both use the first configured contact channel that has a URL.
+Red contact actions and the Tiffany closing action share (52px) minimum height, (9px) icon gap and frontmatter padding. All include an inline diagonal arrow. Fine-pointer hover lifts buttons by (-2px); red changes fill and glow, while Tiffany changes fill. The declared active state scales to (0.97). Transform transitions take (160ms) with the source ease, fill (180ms ease), shadow (200ms ease).
 
-The global keyboard outline is (2px solid Tiffany) at (5px) offset. Contact links open externally with `noopener noreferrer`. No disabled, loading or error visual is implemented.
-
-### Chips
-
-The “О себе” label is a content heading styled as a thin Tiffany capsule, with a transparent background. It has no click, selection or hover state.
+Hero and closing actions become (46px) minimum height and (14px) text on phones; consultation becomes (44px) and (13px). The closing action has (270px) minimum width on desktop and (210px) on phones. No disabled, loading or form-validation states exist.
 
 ### Cards / Containers
 
-Blue, red and cyan variants share the base surface gradient, clipped artwork, thin outlines and card radius. Approach cards use (20px 30px) padding and (126px) minimum height at base desktop size. The lead uses its documented radial wash and frontmatter padding. Fine-pointer hover changes approach and topic outlines to their variant accent over (200ms ease); content and card position do not move.
+Value cards are static, dark translucent surfaces with (1px) outlines; their line art and statement stay separate from topic controls. The approach note is a centered translucent overlay, with a muted outline, Tiffany (26px) heading and (15px) supporting text; these become (22px) and (12px) on phones.
 
-Detail cards use the same surface vocabulary with (115px) minimum height. They have no interactive state.
+Topic cards use a dark linear gradient, a thin resting outline and a per-card blue/red/Tiffany accent. Fine-pointer hover and the open state set the outline to that accent over (180ms ease). The cards do not lift.
 
 ### Topic Panels
 
-Each topic title is a real full-width button with `aria-expanded` and `aria-controls`. Default panels use a (0fr) grid row and hidden visibility; the open card uses (1fr), visible visibility and its variant accent outline. The panel transition is (280ms) with the source ease-out curve. Inner overflow is clipped; paragraph margins are (0 27px 24px). The plus turns into a minus using a (220ms) transform transition and (160ms) opacity transition.
+A topic is a full-width button with `aria-expanded` and `aria-controls`, plus a labeled region. The panel transitions from (0fr) and hidden visibility to (1fr) and visible over (280ms) using the source ease. Inner overflow is clipped. The plus's vertical stroke turns off through transform (220ms) and opacity (160ms), leaving a minus.
 
-Opening a topic closes every other topic; pressing it again closes it. The script synchronizes `aria-expanded`, `aria-hidden`, `inert` and the open-card class. Keyboard activation uses native button behavior. Focus is inset (-6px) with the topic-specific rounding. Optional topic images use cover cropping at (0.3) opacity in place of a ribbon; all current topics use ribbons.
+Opening a topic closes the others; clicking it again closes it. The script synchronizes expanded state, panel `aria-hidden`, `inert` and the open-card class. Native buttons provide keyboard activation.
 
-**The Focus Parity Rule.** Keep visible focus on every keyboard control; topic focus stays inset inside its clipped card.
+### Education Disclosures
+
+Education uses native `details` and `summary`, independent of the exclusive topics. Each row has a thin outline, faint white wash, (10px) radius, and a (42px) minimum-height summary. Its plus becomes a minus through a (200ms) transform transition when `open`. Actual diploma information remains a placeholder; the component describes structure, not verified qualifications.
 
 ### Navigation
 
-Desktop navigation is a lightly outlined capsule, with (4px) link gaps and frontmatter padding. Fine-pointer hover tints the link Tiffany and adds a faint Tiffany wash, over (180ms ease). Anchor links use the page's smooth scroll and a (30px) scroll offset, reduced to (20px) on phones. There is no selected-anchor visual.
+Desktop navigation is an unframed horizontal row, with a Tiffany text action at its end. Regular nav-link hover changes to Tiffany over (180ms); this particular source rule is not media-gated. Header and article actions include diagonal SVG arrows. Article/footer hover colors are fine-pointer gated.
 
-On phones, the hidden menu has opacity (0), translateY (-5px) and hidden visibility. Opening makes it opaque, unshifted and visible. Opacity takes (180ms ease); transform uses (200ms) ease-out; visibility uses (200ms). The two menu strokes rotate into a cross over (220ms) with ease-out. The script synchronizes expanded state and the Russian open/close label. A navigation click, an outside click or crossing (681px) closes it; Escape closes it and returns focus to the trigger.
+Below (761px), navigation becomes an absolutely positioned menu at top (68px), minimum width (235px), with (10px) padding. Closed state uses hidden visibility, opacity (0) and translateY (-8px); open state is visible and unshifted. Its transitions are opacity (180ms), transform (200ms) with the source ease, visibility (200ms). Three trigger bars become a cross by moving/rotating the outer bars and hiding the middle bar.
 
-### Static Ribbon Motif
+Navigation links, outside click, Escape and crossing the (761px) breakpoint close the menu. Escape returns focus to the trigger; the script keeps the Russian open/close label and `aria-expanded` synchronized. Anchor scrolling uses a (24px) offset.
 
-The signature artwork is inline SVG with two translucent folded curves and fine gradient edges, using blue, red or cyan stops. Repeated variants mirror, rotate or stretch the same geometry. The ribbons are marked decorative, ignore pointer events and do not receive focus. Their geometry and color treatment remain static.
+**The Keyboard Visibility Rule.** Retain the global Tiffany focus outline and the native button and details/summary semantics.
+
+The global focus outline is (3px solid Tiffany) with (4px) offset. A skip link is revealed on focus. External contacts use a new tab with `noopener noreferrer`.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** use the supplied portrait unchanged and blend its edges with CSS masks.
-- **Do** retain Montserrat, the established weight hierarchy and the close title tracking.
-- **Do** use the Tiffany capsule for contact actions and the blue/red/cyan surface treatments for cards.
-- **Do** preserve the 18px card radius and compact 3/3/2 topic arrangement above the tablet breakpoint.
-- **Do** let a topic expand inside its card while closing any previously open topic.
-- **Do** preserve visible keyboard focus and the complete reduced-motion behavior.
+- **Do** preserve the original portrait and use CSS masks to integrate its edges.
+- **Do** retain the Montserrat hierarchy and the intentional two-line hero.
+- **Do** preserve four topic columns above 980px and two columns at and below 980px.
+- **Do** retain the four value cards as a two-by-two arrangement on phones.
+- **Do** keep the topic expanded state, minus glyph and accent border synchronized.
+- **Do** preserve visible focus, Russian labels and reduced-motion overrides.
 
 ### Don't:
 
-- **Don't** replace the real portrait with an AI-generated person.
-- **Don't** animate the portrait, ribbons or background gradients.
-- **Don't** turn the outlined “О себе” label into an interactive filter.
-- **Don't** apply hover-only effects to touch devices.
-- **Don't** add new visual variants, colors or typefaces without updating the source system.
-- **Don't** hide content until a reveal animation runs.
+- **Don't** replace the real person with a generated portrait.
+- **Don't** restore the old capsule navigation, 3/3/2 topic grid or folded ribbon artwork.
+- **Don't** animate the portrait, light line, ambient gradients or line illustrations.
+- **Don't** turn value cards into interactive controls.
+- **Don't** invent loading, disabled or validation states that the source does not implement.
+- **Don't** replace the education placeholders with unverified credentials.
 

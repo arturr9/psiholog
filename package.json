@@ -4,6 +4,7 @@
   "private": true,
   "description": "Адаптивный одностраничный сайт психолога Ислама",
   "scripts": {
+    "build": "node build.mjs",
     "start": "node server.mjs",
     "dev": "node server.mjs",
     "check": "node --check app.js && node --check content.js && node --check server.mjs"

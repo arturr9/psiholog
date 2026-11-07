@@ -1,437 +1,368 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-06T21:37:00.663Z",
+  "generatedAt": "2026-11-07T11:28:56.985Z",
   "title": "Design System: Ислам — психолог",
   "extensions": {
     "colorMeta": {
       "bg": {
         "role": "neutral",
-        "displayName": "Night background",
-        "canonical": "#030c15",
+        "displayName": "Night ground",
+        "canonical": "#090c14",
         "tonalRamp": [
-          "oklch(15% 0.02566 244.45)",
-          "oklch(25% 0.02566 244.45)",
-          "oklch(35% 0.02566 244.45)",
-          "oklch(45% 0.02566 244.45)",
-          "oklch(60% 0.02566 244.45)",
-          "oklch(75% 0.02566 244.45)",
-          "oklch(85% 0.02566 244.45)",
-          "oklch(95% 0.02566 244.45)"
+          "oklch(15% 0.01791 268.26)",
+          "oklch(25% 0.01791 268.26)",
+          "oklch(35% 0.01791 268.26)",
+          "oklch(45% 0.01791 268.26)",
+          "oklch(60% 0.01791 268.26)",
+          "oklch(75% 0.01791 268.26)",
+          "oklch(85% 0.01791 268.26)",
+          "oklch(95% 0.01791 268.26)"
         ]
       },
       "surface": {
         "role": "neutral",
-        "displayName": "Base surface",
-        "canonical": "#07131e",
+        "displayName": "Panel palette",
+        "canonical": "#191d27",
         "tonalRamp": [
-          "oklch(15% 0.02882 247.08)",
-          "oklch(25% 0.02882 247.08)",
-          "oklch(35% 0.02882 247.08)",
-          "oklch(45% 0.02882 247.08)",
-          "oklch(60% 0.02882 247.08)",
-          "oklch(75% 0.02882 247.08)",
-          "oklch(85% 0.02882 247.08)",
-          "oklch(95% 0.02882 247.08)"
+          "oklch(15% 0.02033 267.78)",
+          "oklch(25% 0.02033 267.78)",
+          "oklch(35% 0.02033 267.78)",
+          "oklch(45% 0.02033 267.78)",
+          "oklch(60% 0.02033 267.78)",
+          "oklch(75% 0.02033 267.78)",
+          "oklch(85% 0.02033 267.78)",
+          "oklch(95% 0.02033 267.78)"
+        ]
+      },
+      "surface-2": {
+        "role": "neutral",
+        "displayName": "Secondary panel palette",
+        "canonical": "#121722",
+        "tonalRamp": [
+          "oklch(15% 0.02338 265.47)",
+          "oklch(25% 0.02338 265.47)",
+          "oklch(35% 0.02338 265.47)",
+          "oklch(45% 0.02338 265.47)",
+          "oklch(60% 0.02338 265.47)",
+          "oklch(75% 0.02338 265.47)",
+          "oklch(85% 0.02338 265.47)",
+          "oklch(95% 0.02338 265.47)"
         ]
       },
       "text": {
         "role": "neutral",
-        "displayName": "Soft white",
-        "canonical": "#f6f7fa",
+        "displayName": "Main text",
+        "canonical": "#f8f9fb",
         "tonalRamp": [
-          "oklch(15% 0.00413 271.37)",
-          "oklch(25% 0.00413 271.37)",
-          "oklch(35% 0.00413 271.37)",
-          "oklch(45% 0.00413 271.37)",
-          "oklch(60% 0.00413 271.37)",
-          "oklch(75% 0.00413 271.37)",
-          "oklch(85% 0.00413 271.37)",
-          "oklch(95% 0.00413 271.37)"
+          "oklch(15% 0.00286 264.54)",
+          "oklch(25% 0.00286 264.54)",
+          "oklch(35% 0.00286 264.54)",
+          "oklch(45% 0.00286 264.54)",
+          "oklch(60% 0.00286 264.54)",
+          "oklch(75% 0.00286 264.54)",
+          "oklch(85% 0.00286 264.54)",
+          "oklch(95% 0.00286 264.54)"
         ]
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Muted white",
-        "canonical": "#d0d6df",
+        "displayName": "Muted text",
+        "canonical": "#c8ccd5",
         "tonalRamp": [
-          "oklch(15% 0.01401 258.35)",
-          "oklch(25% 0.01401 258.35)",
-          "oklch(35% 0.01401 258.35)",
-          "oklch(45% 0.01401 258.35)",
-          "oklch(60% 0.01401 258.35)",
-          "oklch(75% 0.01401 258.35)",
-          "oklch(85% 0.01401 258.35)",
-          "oklch(95% 0.01401 258.35)"
+          "oklch(15% 0.01322 266.69)",
+          "oklch(25% 0.01322 266.69)",
+          "oklch(35% 0.01322 266.69)",
+          "oklch(45% 0.01322 266.69)",
+          "oklch(60% 0.01322 266.69)",
+          "oklch(75% 0.01322 266.69)",
+          "oklch(85% 0.01322 266.69)",
+          "oklch(95% 0.01322 266.69)"
         ]
       },
       "tiffany": {
         "role": "primary",
         "displayName": "Tiffany",
-        "canonical": "#12e5d5",
+        "canonical": "#53e5d0",
         "tonalRamp": [
-          "oklch(15% 0.14408 185.84)",
-          "oklch(25% 0.14408 185.84)",
-          "oklch(35% 0.14408 185.84)",
-          "oklch(45% 0.14408 185.84)",
-          "oklch(60% 0.14408 185.84)",
-          "oklch(75% 0.14408 185.84)",
-          "oklch(85% 0.14408 185.84)",
-          "oklch(95% 0.14408 185.84)"
+          "oklch(15% 0.12724 181.81)",
+          "oklch(25% 0.12724 181.81)",
+          "oklch(35% 0.12724 181.81)",
+          "oklch(45% 0.12724 181.81)",
+          "oklch(60% 0.12724 181.81)",
+          "oklch(75% 0.12724 181.81)",
+          "oklch(85% 0.12724 181.81)",
+          "oklch(95% 0.12724 181.81)"
         ]
       },
       "blue": {
         "role": "secondary",
         "displayName": "Electric blue",
-        "canonical": "#008bdf",
+        "canonical": "#2455ff",
         "tonalRamp": [
-          "oklch(15% 0.16010 246.34)",
-          "oklch(25% 0.16010 246.34)",
-          "oklch(35% 0.16010 246.34)",
-          "oklch(45% 0.16010 246.34)",
-          "oklch(60% 0.16010 246.34)",
-          "oklch(75% 0.16010 246.34)",
-          "oklch(85% 0.16010 246.34)",
-          "oklch(95% 0.16010 246.34)"
+          "oklch(15% 0.25547 265.27)",
+          "oklch(25% 0.25547 265.27)",
+          "oklch(35% 0.25547 265.27)",
+          "oklch(45% 0.25547 265.27)",
+          "oklch(60% 0.25547 265.27)",
+          "oklch(75% 0.25547 265.27)",
+          "oklch(85% 0.25547 265.27)",
+          "oklch(95% 0.25547 265.27)"
         ]
       },
       "red": {
         "role": "tertiary",
-        "displayName": "Neon red",
-        "canonical": "#fa3762",
+        "displayName": "Signal red",
+        "canonical": "#ff304e",
         "tonalRamp": [
-          "oklch(15% 0.22745 14.56)",
-          "oklch(25% 0.22745 14.56)",
-          "oklch(35% 0.22745 14.56)",
-          "oklch(45% 0.22745 14.56)",
-          "oklch(60% 0.22745 14.56)",
-          "oklch(75% 0.22745 14.56)",
-          "oklch(85% 0.22745 14.56)",
-          "oklch(95% 0.22745 14.56)"
+          "oklch(15% 0.23666 20.19)",
+          "oklch(25% 0.23666 20.19)",
+          "oklch(35% 0.23666 20.19)",
+          "oklch(45% 0.23666 20.19)",
+          "oklch(60% 0.23666 20.19)",
+          "oklch(75% 0.23666 20.19)",
+          "oklch(85% 0.23666 20.19)",
+          "oklch(95% 0.23666 20.19)"
         ]
       },
-      "border": {
+      "line": {
         "role": "neutral",
-        "displayName": "Structural border",
-        "canonical": "#34434f",
+        "displayName": "Structural line palette",
+        "canonical": "#3a4352",
         "tonalRamp": [
-          "oklch(15% 0.02832 242.65)",
-          "oklch(25% 0.02832 242.65)",
-          "oklch(35% 0.02832 242.65)",
-          "oklch(45% 0.02832 242.65)",
-          "oklch(60% 0.02832 242.65)",
-          "oklch(75% 0.02832 242.65)",
-          "oklch(85% 0.02832 242.65)",
-          "oklch(95% 0.02832 242.65)"
+          "oklch(15% 0.02834 260.60)",
+          "oklch(25% 0.02834 260.60)",
+          "oklch(35% 0.02834 260.60)",
+          "oklch(45% 0.02834 260.60)",
+          "oklch(60% 0.02834 260.60)",
+          "oklch(75% 0.02834 260.60)",
+          "oklch(85% 0.02834 260.60)",
+          "oklch(95% 0.02834 260.60)"
         ]
       },
-      "blue-surface": {
-        "role": "secondary",
-        "displayName": "Blue card face",
-        "canonical": "#041a2a",
-        "tonalRamp": [
-          "oklch(15% 0.04272 242.76)",
-          "oklch(25% 0.04272 242.76)",
-          "oklch(35% 0.04272 242.76)",
-          "oklch(45% 0.04272 242.76)",
-          "oklch(60% 0.04272 242.76)",
-          "oklch(75% 0.04272 242.76)",
-          "oklch(85% 0.04272 242.76)",
-          "oklch(95% 0.04272 242.76)"
-        ]
-      },
-      "red-surface": {
-        "role": "tertiary",
-        "displayName": "Red card face",
-        "canonical": "#18101c",
-        "tonalRamp": [
-          "oklch(15% 0.02665 314.13)",
-          "oklch(25% 0.02665 314.13)",
-          "oklch(35% 0.02665 314.13)",
-          "oklch(45% 0.02665 314.13)",
-          "oklch(60% 0.02665 314.13)",
-          "oklch(75% 0.02665 314.13)",
-          "oklch(85% 0.02665 314.13)",
-          "oklch(95% 0.02665 314.13)"
-        ]
-      },
-      "cyan-surface": {
-        "role": "tertiary",
-        "displayName": "Cyan card face",
-        "canonical": "#071d26",
-        "tonalRamp": [
-          "oklch(15% 0.03290 227.79)",
-          "oklch(25% 0.03290 227.79)",
-          "oklch(35% 0.03290 227.79)",
-          "oklch(45% 0.03290 227.79)",
-          "oklch(60% 0.03290 227.79)",
-          "oklch(75% 0.03290 227.79)",
-          "oklch(85% 0.03290 227.79)",
-          "oklch(95% 0.03290 227.79)"
-        ]
-      },
-      "blue-border": {
-        "role": "secondary",
-        "displayName": "Blue outline",
-        "canonical": "#235673",
-        "tonalRamp": [
-          "oklch(15% 0.07233 236.79)",
-          "oklch(25% 0.07233 236.79)",
-          "oklch(35% 0.07233 236.79)",
-          "oklch(45% 0.07233 236.79)",
-          "oklch(60% 0.07233 236.79)",
-          "oklch(75% 0.07233 236.79)",
-          "oklch(85% 0.07233 236.79)",
-          "oklch(95% 0.07233 236.79)"
-        ]
-      },
-      "red-border": {
-        "role": "tertiary",
-        "displayName": "Red outline",
-        "canonical": "#684050",
-        "tonalRamp": [
-          "oklch(15% 0.05996 354.38)",
-          "oklch(25% 0.05996 354.38)",
-          "oklch(35% 0.05996 354.38)",
-          "oklch(45% 0.05996 354.38)",
-          "oklch(60% 0.05996 354.38)",
-          "oklch(75% 0.05996 354.38)",
-          "oklch(85% 0.05996 354.38)",
-          "oklch(95% 0.05996 354.38)"
-        ]
-      },
-      "cyan-border": {
-        "role": "tertiary",
-        "displayName": "Cyan outline",
-        "canonical": "#345763",
-        "tonalRamp": [
-          "oklch(15% 0.04499 221.84)",
-          "oklch(25% 0.04499 221.84)",
-          "oklch(35% 0.04499 221.84)",
-          "oklch(45% 0.04499 221.84)",
-          "oklch(60% 0.04499 221.84)",
-          "oklch(75% 0.04499 221.84)",
-          "oklch(85% 0.04499 221.84)",
-          "oklch(95% 0.04499 221.84)"
-        ]
-      },
-      "blue-accent": {
-        "role": "secondary",
-        "displayName": "Blue interactive outline",
-        "canonical": "#00b6f4",
-        "tonalRamp": [
-          "oklch(15% 0.14872 231.99)",
-          "oklch(25% 0.14872 231.99)",
-          "oklch(35% 0.14872 231.99)",
-          "oklch(45% 0.14872 231.99)",
-          "oklch(60% 0.14872 231.99)",
-          "oklch(75% 0.14872 231.99)",
-          "oklch(85% 0.14872 231.99)",
-          "oklch(95% 0.14872 231.99)"
-        ]
-      },
-      "red-accent": {
-        "role": "tertiary",
-        "displayName": "Red interactive outline",
-        "canonical": "#fc4874",
-        "tonalRamp": [
-          "oklch(15% 0.21574 11.03)",
-          "oklch(25% 0.21574 11.03)",
-          "oklch(35% 0.21574 11.03)",
-          "oklch(45% 0.21574 11.03)",
-          "oklch(60% 0.21574 11.03)",
-          "oklch(75% 0.21574 11.03)",
-          "oklch(85% 0.21574 11.03)",
-          "oklch(95% 0.21574 11.03)"
-        ]
-      },
-      "cyan-accent": {
-        "role": "tertiary",
-        "displayName": "Cyan interactive outline",
-        "canonical": "#13dce4",
-        "tonalRamp": [
-          "oklch(15% 0.13651 199.55)",
-          "oklch(25% 0.13651 199.55)",
-          "oklch(35% 0.13651 199.55)",
-          "oklch(45% 0.13651 199.55)",
-          "oklch(60% 0.13651 199.55)",
-          "oklch(75% 0.13651 199.55)",
-          "oklch(85% 0.13651 199.55)",
-          "oklch(95% 0.13651 199.55)"
-        ]
-      },
-      "lead-surface": {
-        "role": "secondary",
-        "displayName": "Lead blue face",
-        "canonical": "#032036",
-        "tonalRamp": [
-          "oklch(15% 0.05461 245.22)",
-          "oklch(25% 0.05461 245.22)",
-          "oklch(35% 0.05461 245.22)",
-          "oklch(45% 0.05461 245.22)",
-          "oklch(60% 0.05461 245.22)",
-          "oklch(75% 0.05461 245.22)",
-          "oklch(85% 0.05461 245.22)",
-          "oklch(95% 0.05461 245.22)"
-        ]
-      },
-      "lead-border": {
-        "role": "secondary",
-        "displayName": "Lead blue outline",
-        "canonical": "#0499d2",
-        "tonalRamp": [
-          "oklch(15% 0.13433 234.16)",
-          "oklch(25% 0.13433 234.16)",
-          "oklch(35% 0.13433 234.16)",
-          "oklch(45% 0.13433 234.16)",
-          "oklch(60% 0.13433 234.16)",
-          "oklch(75% 0.13433 234.16)",
-          "oklch(85% 0.13433 234.16)",
-          "oklch(95% 0.13433 234.16)"
-        ]
-      },
-      "contact-ink": {
+      "white": {
         "role": "neutral",
-        "displayName": "Contact ink",
-        "canonical": "#001719",
+        "displayName": "White",
+        "canonical": "#fff",
         "tonalRamp": [
-          "oklch(15% 0.03170 202.19)",
-          "oklch(25% 0.03170 202.19)",
-          "oklch(35% 0.03170 202.19)",
-          "oklch(45% 0.03170 202.19)",
-          "oklch(60% 0.03170 202.19)",
-          "oklch(75% 0.03170 202.19)",
-          "oklch(85% 0.03170 202.19)",
-          "oklch(95% 0.03170 202.19)"
+          "oklch(15% 0.00000 89.88)",
+          "oklch(25% 0.00000 89.88)",
+          "oklch(35% 0.00000 89.88)",
+          "oklch(45% 0.00000 89.88)",
+          "oklch(60% 0.00000 89.88)",
+          "oklch(75% 0.00000 89.88)",
+          "oklch(85% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
         ]
       },
-      "contact-hover": {
+      "highlight-ink": {
+        "role": "neutral",
+        "displayName": "Hero highlight ink",
+        "canonical": "#07100f",
+        "tonalRamp": [
+          "oklch(15% 0.01417 187.40)",
+          "oklch(25% 0.01417 187.40)",
+          "oklch(35% 0.01417 187.40)",
+          "oklch(45% 0.01417 187.40)",
+          "oklch(60% 0.01417 187.40)",
+          "oklch(75% 0.01417 187.40)",
+          "oklch(85% 0.01417 187.40)",
+          "oklch(95% 0.01417 187.40)"
+        ]
+      },
+      "tiffany-ink": {
         "role": "primary",
-        "displayName": "Contact hover",
-        "canonical": "#61f2e5",
+        "displayName": "Closing action ink",
+        "canonical": "#06110f",
         "tonalRamp": [
-          "oklch(15% 0.12527 186.93)",
-          "oklch(25% 0.12527 186.93)",
-          "oklch(35% 0.12527 186.93)",
-          "oklch(45% 0.12527 186.93)",
-          "oklch(60% 0.12527 186.93)",
-          "oklch(75% 0.12527 186.93)",
-          "oklch(85% 0.12527 186.93)",
-          "oklch(95% 0.12527 186.93)"
+          "oklch(15% 0.01743 181.85)",
+          "oklch(25% 0.01743 181.85)",
+          "oklch(35% 0.01743 181.85)",
+          "oklch(45% 0.01743 181.85)",
+          "oklch(60% 0.01743 181.85)",
+          "oklch(75% 0.01743 181.85)",
+          "oklch(85% 0.01743 181.85)",
+          "oklch(95% 0.01743 181.85)"
+        ]
+      },
+      "supporting-text": {
+        "role": "neutral",
+        "displayName": "Supporting text",
+        "canonical": "#eef0f4",
+        "tonalRamp": [
+          "oklch(15% 0.00577 264.53)",
+          "oklch(25% 0.00577 264.53)",
+          "oklch(35% 0.00577 264.53)",
+          "oklch(45% 0.00577 264.53)",
+          "oklch(60% 0.00577 264.53)",
+          "oklch(75% 0.00577 264.53)",
+          "oklch(85% 0.00577 264.53)",
+          "oklch(95% 0.00577 264.53)"
+        ]
+      },
+      "red-hover": {
+        "role": "tertiary",
+        "displayName": "Red action hover",
+        "canonical": "#ff4962",
+        "tonalRamp": [
+          "oklch(15% 0.21673 17.76)",
+          "oklch(25% 0.21673 17.76)",
+          "oklch(35% 0.21673 17.76)",
+          "oklch(45% 0.21673 17.76)",
+          "oklch(60% 0.21673 17.76)",
+          "oklch(75% 0.21673 17.76)",
+          "oklch(85% 0.21673 17.76)",
+          "oklch(95% 0.21673 17.76)"
+        ]
+      },
+      "tiffany-hover": {
+        "role": "primary",
+        "displayName": "Tiffany action hover",
+        "canonical": "#75efdc",
+        "tonalRamp": [
+          "oklch(15% 0.11368 182.07)",
+          "oklch(25% 0.11368 182.07)",
+          "oklch(35% 0.11368 182.07)",
+          "oklch(45% 0.11368 182.07)",
+          "oklch(60% 0.11368 182.07)",
+          "oklch(75% 0.11368 182.07)",
+          "oklch(85% 0.11368 182.07)",
+          "oklch(95% 0.11368 182.07)"
+        ]
+      },
+      "link-hover": {
+        "role": "primary",
+        "displayName": "Link hover",
+        "canonical": "#83f2e1",
+        "tonalRamp": [
+          "oklch(15% 0.10565 182.76)",
+          "oklch(25% 0.10565 182.76)",
+          "oklch(35% 0.10565 182.76)",
+          "oklch(45% 0.10565 182.76)",
+          "oklch(60% 0.10565 182.76)",
+          "oklch(75% 0.10565 182.76)",
+          "oklch(85% 0.10565 182.76)",
+          "oklch(95% 0.10565 182.76)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Hero display",
-        "purpose": "Main introductory heading; responsive overrides are documented in Layout."
+        "displayName": "Display",
+        "purpose": "Two-line centered hero."
       },
       "headline": {
-        "displayName": "Section heading",
-        "purpose": "Approach and topics section headings beside a fading rule."
+        "displayName": "Headline",
+        "purpose": "About-section heading."
       },
-      "title": {
-        "displayName": "Approach title",
-        "purpose": "Regular approach-card titles."
+      "topic-heading": {
+        "displayName": "Topic Heading",
+        "purpose": "Topic heading with blue highlighted word."
       },
-      "lead-title": {
-        "displayName": "Lead approach title",
-        "purpose": "Larger blue approach-card title with normal wrapping."
+      "information-heading": {
+        "displayName": "Information Heading",
+        "purpose": "Education and consultation headings."
       },
-      "body": {
-        "displayName": "Personal statement",
-        "purpose": "The about paragraph; hero subtitle has a separate responsive clamp."
-      },
-      "compact-body": {
-        "displayName": "Compact card body",
-        "purpose": "Regular approach-card descriptions."
-      },
-      "label": {
-        "displayName": "Navigation label",
-        "purpose": "Desktop capsule navigation links."
-      },
-      "contact": {
-        "displayName": "Contact action",
-        "purpose": "Large hero contact action; footer variant uses smaller text."
+      "value-title": {
+        "displayName": "Value Title",
+        "purpose": "Static value cards around the portrait."
       },
       "topic-title": {
-        "displayName": "Topic control",
-        "purpose": "Expandable topic button labels."
+        "displayName": "Topic Title",
+        "purpose": "Expandable topic labels."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "Balanced hero description."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "About copy beneath the portrait stage."
       },
       "panel-body": {
-        "displayName": "Expanded description",
-        "purpose": "Muted topic description with comfortable line-height."
+        "displayName": "Panel Body",
+        "purpose": "Expanded topic descriptions."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Regular desktop navigation links."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Contact action labels."
       }
     },
     "shadows": [
       {
-        "name": "contact-hover-glow",
-        "value": "0 8px 35px #09dcc32b",
-        "purpose": "Fine-pointer hover on contact actions only; cards have no resting shadow."
+        "name": "red-action-rest",
+        "value": "0 12px 28px #ff304e26",
+        "purpose": "Red contact actions at rest."
+      },
+      {
+        "name": "red-action-hover",
+        "value": "0 14px 34px #ff304e3b",
+        "purpose": "Red contact actions on hover-capable fine pointers."
+      },
+      {
+        "name": "phone-navigation",
+        "value": "0 18px 45px #0009",
+        "purpose": "Floating phone navigation surface."
       }
     ],
     "motion": [
       {
-        "name": "ease-out",
-        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
-        "purpose": "Source --ease-out for press, topic height/icon, mobile menu and one-time reveals."
+        "name": "ease",
+        "value": "cubic-bezier(.22,1,.36,1)",
+        "purpose": "Source --ease for button, menu, glyph and panel state changes."
       },
       {
-        "name": "link-state",
-        "value": "color 180ms ease, background-color 180ms ease",
-        "purpose": "Navigation link hover."
+        "name": "button",
+        "value": "transform .16s cubic-bezier(.22,1,.36,1), background-color .18s ease, box-shadow .2s ease",
+        "purpose": "Fine-pointer hover translateY(-2px); declared active scale(.97)."
       },
       {
-        "name": "contact-state",
-        "value": "background-color 180ms ease, box-shadow 220ms ease, transform 150ms cubic-bezier(0.22, 1, 0.36, 1)",
-        "purpose": "Contact fill, glow and scale(0.97) press."
+        "name": "navigation-link",
+        "value": "color .18s ease",
+        "purpose": "Regular nav hover; this source rule is not pointer-gated."
       },
       {
-        "name": "card-state",
-        "value": "border-color 200ms ease",
-        "purpose": "Approach card hover border; topic cards also declare background-color 200ms ease."
+        "name": "topic-border",
+        "value": "border-color .18s ease",
+        "purpose": "Topic open and fine-pointer hover outline."
       },
       {
         "name": "topic-panel",
-        "value": "grid-template-rows 280ms cubic-bezier(0.22, 1, 0.36, 1), visibility 280ms",
-        "purpose": "Interruptible 0fr-to-1fr topic expansion."
+        "value": "grid-template-rows .28s cubic-bezier(.22,1,.36,1), visibility .28s",
+        "purpose": "Hidden 0fr panel to visible 1fr panel."
       },
       {
-        "name": "topic-icon",
-        "value": "transform 220ms cubic-bezier(0.22, 1, 0.36, 1), opacity 160ms ease",
-        "purpose": "Vertical plus stroke disappears into the minus."
+        "name": "topic-plus",
+        "value": "transform .22s cubic-bezier(.22,1,.36,1), opacity .16s ease",
+        "purpose": "Vertical plus stroke disappears in the expanded state."
       },
       {
-        "name": "mobile-menu",
-        "value": "opacity 180ms ease, transform 200ms cubic-bezier(0.22, 1, 0.36, 1), visibility 200ms",
-        "purpose": "Hidden/visible phone navigation; menu strokes separately use 220ms ease-out."
+        "name": "education-plus",
+        "value": "transform .2s cubic-bezier(.22,1,.36,1)",
+        "purpose": "Native details open state converts plus into minus."
       },
       {
-        "name": "section-reveal",
-        "value": "480ms cubic-bezier(0.22, 1, 0.36, 1)",
-        "purpose": "One time at IntersectionObserver threshold 0.08: opacity 0.65→1 and translateY(14px)→0; content starts visible."
+        "name": "phone-menu",
+        "value": "opacity .18s ease, transform .2s cubic-bezier(.22,1,.36,1), visibility .2s",
+        "purpose": "Closed menu opacity 0, translateY(-8px), hidden; open menu unshifted and visible. Trigger bars use transform .22s and opacity .16s."
       },
       {
         "name": "reduced-motion",
-        "value": "animation: none !important; transition: none !important; scroll-behavior: auto",
-        "purpose": "CSS covers every element and pseudo-element. JavaScript skips observation initially; a switch to reduced motion disconnects observation and finishes active Web Animations."
+        "value": "scroll-behavior: auto; animation: none !important; transition: none !important",
+        "purpose": "CSS covers all elements and pseudo-elements. No section reveals, observers or Web Animations exist in app.js."
       }
     ],
     "breakpoints": [
       {
-        "name": "wide-intro",
-        "value": "(min-width: 1600px)"
-      },
-      {
-        "name": "compact-desktop",
-        "value": "(max-width: 1120px) and (min-width: 681px)"
-      },
-      {
         "name": "tablet",
-        "value": "(max-width: 900px) and (min-width: 681px)"
+        "value": "(max-width: 980px)"
       },
       {
         "name": "phone",
-        "value": "(max-width: 680px)"
+        "value": "(max-width: 760px)"
       },
       {
         "name": "small-phone",
@@ -441,122 +372,127 @@
   },
   "components": [
     {
-      "name": "Contact Button",
+      "name": "Red Contact Action",
       "kind": "button",
-      "refersTo": "button-contact",
-      "description": "Primary external contact capsule; source hover, press and focus states.",
-      "html": "<a class=\"ds-contact\" href=\"https://www.instagram.com/islmchanel/\" target=\"_blank\" rel=\"noopener noreferrer\">Связаться</a>",
-      "css": ".ds-contact{display:inline-flex;align-items:center;justify-content:center;min-height:62px;min-width:245px;padding:14px 34px;border-radius:100px;background:var(--color-tiffany,#12e5d5);color:#001719;font-family:var(--font-body,Montserrat,Arial,sans-serif);font-size:23px;font-weight:750;line-height:1.2;text-decoration:none;transition:background-color 180ms ease,box-shadow 220ms ease,transform 150ms var(--ease-out,cubic-bezier(.22,1,.36,1));}.ds-contact:active{transform:scale(.97);}@media(hover:hover) and (pointer:fine){.ds-contact:hover{background:#61f2e5;box-shadow:0 8px 35px #09dcc32b;}}.ds-contact:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible{outline:2px solid var(--color-tiffany,#12e5d5);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}"
+      "refersTo": "button-red",
+      "description": "Hero and consultation action with static glow and source hover/press/focus states.",
+      "html": "<a class=\"ds-button ds-button-red\" href=\"https://www.instagram.com/islmchanel/\" target=\"_blank\" rel=\"noopener noreferrer\">Связаться<svg viewBox=\"0 0 18 18\" aria-hidden=\"true\"><path d=\"M4 14 14 4M7 4h7v7\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:52px;padding:12px 26px;border-radius:14px;font-family:Montserrat,Arial,sans-serif;font-size:16px;font-weight:700;text-decoration:none;transition:transform .16s var(--ease,cubic-bezier(.22,1,.36,1)),background-color .18s ease,box-shadow .2s ease;}.ds-button:active{transform:scale(.97);}.ds-button svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}.ds-button-red{background:var(--red,#ff304e);color:#fff;box-shadow:0 12px 28px #ff304e26;}.ds-button-tiffany{background:var(--tiffany,#53e5d0);color:#06110f;}@media(hover:hover) and (pointer:fine){.ds-button:hover{transform:translateY(-2px);}.ds-button-red:hover{background:#ff4962;box-shadow:0 14px 34px #ff304e3b;}.ds-button-tiffany:hover{background:#75efdc;}}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible,.ds-topic-toggle:focus-visible,.ds-education summary:focus-visible{outline:3px solid var(--tiffany,#53e5d0);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-nav a,.ds-menu span,.ds-topic,.ds-panel,.ds-plus::after,.ds-education summary span::after{animation:none!important;transition:none!important;}}"
     },
     {
-      "name": "Footer Contact Button",
+      "name": "Tiffany Contact Action",
       "kind": "button",
-      "refersTo": "button-contact-footer",
-      "description": "Smaller footer contact action using the same state treatments.",
-      "html": "<a class=\"ds-contact ds-footer-contact\" href=\"https://www.instagram.com/islmchanel/\" target=\"_blank\" rel=\"noopener noreferrer\">Связаться</a>",
-      "css": ".ds-contact{display:inline-flex;align-items:center;justify-content:center;min-height:62px;min-width:245px;padding:14px 34px;border-radius:100px;background:var(--color-tiffany,#12e5d5);color:#001719;font-family:var(--font-body,Montserrat,Arial,sans-serif);font-size:23px;font-weight:750;line-height:1.2;text-decoration:none;transition:background-color 180ms ease,box-shadow 220ms ease,transform 150ms var(--ease-out,cubic-bezier(.22,1,.36,1));}.ds-contact:active{transform:scale(.97);}@media(hover:hover) and (pointer:fine){.ds-contact:hover{background:#61f2e5;box-shadow:0 8px 35px #09dcc32b;}}.ds-contact:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible{outline:2px solid var(--color-tiffany,#12e5d5);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}.ds-footer-contact{min-width:190px;min-height:53px;font-size:19px;}"
+      "refersTo": "button-tiffany",
+      "description": "Closing action using the same rectangular rounded control and arrow.",
+      "html": "<a class=\"ds-button ds-button-tiffany\" href=\"https://www.instagram.com/islmchanel/\" target=\"_blank\" rel=\"noopener noreferrer\">Связаться со мной<svg viewBox=\"0 0 18 18\" aria-hidden=\"true\"><path d=\"M4 14 14 4M7 4h7v7\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:52px;padding:12px 26px;border-radius:14px;font-family:Montserrat,Arial,sans-serif;font-size:16px;font-weight:700;text-decoration:none;transition:transform .16s var(--ease,cubic-bezier(.22,1,.36,1)),background-color .18s ease,box-shadow .2s ease;}.ds-button:active{transform:scale(.97);}.ds-button svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}.ds-button-red{background:var(--red,#ff304e);color:#fff;box-shadow:0 12px 28px #ff304e26;}.ds-button-tiffany{background:var(--tiffany,#53e5d0);color:#06110f;}@media(hover:hover) and (pointer:fine){.ds-button:hover{transform:translateY(-2px);}.ds-button-red:hover{background:#ff4962;box-shadow:0 14px 34px #ff304e3b;}.ds-button-tiffany:hover{background:#75efdc;}}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible,.ds-topic-toggle:focus-visible,.ds-education summary:focus-visible{outline:3px solid var(--tiffany,#53e5d0);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-nav a,.ds-menu span,.ds-topic,.ds-panel,.ds-plus::after,.ds-education summary span::after{animation:none!important;transition:none!important;}}"
     },
     {
-      "name": "Desktop Capsule Navigation",
+      "name": "Desktop Navigation",
       "kind": "nav",
       "refersTo": "navigation",
-      "description": "Outlined navigation capsule with Tiffany link hover and keyboard focus.",
-      "html": "<nav class=\"ds-nav\" aria-label=\"Основная навигация\"><a href=\"#about\">О себе</a><a href=\"#approach\">Подход</a><a href=\"#topics\">Темы</a><a href=\"#contacts\">Контакты</a></nav>",
-      "css": ".ds-nav{display:flex;align-items:center;gap:4px;padding:5px 12px;border:1px solid #74808b66;border-radius:100px;background:linear-gradient(115deg,#ffffff0a,#ffffff05);color:var(--color-text,#f6f7fa);font-family:var(--font-body,Montserrat,Arial,sans-serif);}.ds-nav a{padding:8px 19px;font-size:15px;font-weight:650;border-radius:30px;text-decoration:none;color:inherit;transition:color 180ms ease,background-color 180ms ease;}@media(hover:hover) and (pointer:fine){.ds-nav a:hover{color:var(--color-tiffany,#12e5d5);background:#12e5d509;}}.ds-contact:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible{outline:2px solid var(--color-tiffany,#12e5d5);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}"
+      "description": "Unframed navigation row with Tiffany text contact action.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Основная навигация\"><a href=\"#about\">Обо мне</a><a href=\"#topics\">Направления</a><a href=\"#education\">Образование</a><a href=\"#consultation\">Стоимость</a><a href=\"#contacts\">Контакты</a><a class=\"ds-header-action\" href=\"https://www.instagram.com/islmchanel/\" target=\"_blank\" rel=\"noopener noreferrer\">Написать<svg viewBox=\"0 0 18 18\" aria-hidden=\"true\"><path d=\"M4 14 14 4M7 4h7v7\"/></svg></a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:28px;font-family:Montserrat,Arial,sans-serif;color:var(--text,#f8f9fb);}.ds-nav a{color:inherit;text-decoration:none;}.ds-nav>a:not(.ds-header-action){font-size:14px;font-weight:550;transition:color .18s ease;}.ds-nav>a:not(.ds-header-action):hover{color:var(--tiffany,#53e5d0);}.ds-nav .ds-header-action{display:inline-flex;align-items:center;gap:6px;color:var(--tiffany,#53e5d0);font-size:14px;font-weight:700;}.ds-header-action svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible,.ds-topic-toggle:focus-visible,.ds-education summary:focus-visible{outline:3px solid var(--tiffany,#53e5d0);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-nav a,.ds-menu span,.ds-topic,.ds-panel,.ds-plus::after,.ds-education summary span::after{animation:none!important;transition:none!important;}}"
     },
     {
-      "name": "Mobile Menu Trigger",
+      "name": "Phone Menu Trigger",
       "kind": "button",
-      "description": "Circular 44px trigger; expanded state rotates its two strokes into a cross.",
-      "html": "<button class=\"ds-menu\" type=\"button\" aria-expanded=\"false\" aria-label=\"Открыть меню\"><span></span><span></span></button>",
-      "css": ".ds-menu{display:flex;position:relative;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:44px;height:44px;padding:0;border:1px solid #526370;border-radius:50%;background:#0d1a26;cursor:pointer;}.ds-menu span{display:block;width:18px;height:1.5px;background:var(--color-text,#f6f7fa);transition:transform 220ms var(--ease-out,cubic-bezier(.22,1,.36,1));}.ds-menu[aria-expanded=\"true\"] span:first-child{transform:translateY(3.75px) rotate(45deg);}.ds-menu[aria-expanded=\"true\"] span:last-child{transform:translateY(-3.75px) rotate(-45deg);}.ds-contact:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible{outline:2px solid var(--color-tiffany,#12e5d5);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}"
+      "description": "Three-bar circular trigger with expanded cross treatment.",
+      "html": "<button class=\"ds-menu\" type=\"button\" aria-expanded=\"false\" aria-label=\"Открыть меню\"><span></span><span></span><span></span></button>",
+      "css": ".ds-menu{display:flex;position:relative;width:42px;height:42px;padding:9px;border:0;border-radius:50%;background:transparent;flex-direction:column;align-items:center;justify-content:center;gap:5px;cursor:pointer;}.ds-menu span{width:20px;height:2px;border-radius:2px;background:#fff;transition:transform .22s var(--ease,cubic-bezier(.22,1,.36,1)),opacity .16s ease;}.ds-menu[aria-expanded=true] span:first-child{transform:translateY(7px) rotate(45deg);}.ds-menu[aria-expanded=true] span:nth-child(2){opacity:0;}.ds-menu[aria-expanded=true] span:last-child{transform:translateY(-7px) rotate(-45deg);}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible,.ds-topic-toggle:focus-visible,.ds-education summary:focus-visible{outline:3px solid var(--tiffany,#53e5d0);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-nav a,.ds-menu span,.ds-topic,.ds-panel,.ds-plus::after,.ds-education summary span::after{animation:none!important;transition:none!important;}}"
     },
     {
-      "name": "About Label",
-      "kind": "chip",
-      "refersTo": "about-label",
-      "description": "Noninteractive section heading styled as an outlined Tiffany capsule.",
-      "html": "<h2 class=\"ds-about-label\">О себе</h2>",
-      "css": ".ds-about-label{display:inline-block;margin:0;padding:5px 24px;border:1px solid var(--color-tiffany,#12e5d5);border-radius:100px;color:var(--color-tiffany,#12e5d5);font-family:var(--font-body,Montserrat,Arial,sans-serif);font-size:16px;font-weight:600;line-height:1.2;}"
+      "name": "Tiffany Hero Highlight",
+      "kind": "custom",
+      "refersTo": "hero-highlight",
+      "description": "Second display line with the implemented highlight shape and dark lettering.",
+      "html": "<strong class=\"ds-highlight\">Найти опору.</strong>",
+      "css": ".ds-highlight{display:inline-block;padding:2px 20px 8px;border-radius:24px;background:var(--tiffany,#53e5d0);color:#07100f;font-family:Montserrat,Arial,sans-serif;font-size:clamp(58px,7vw,96px);font-weight:820;line-height:1;letter-spacing:-.04em;}"
     },
     {
-      "name": "Lead Approach Card",
+      "name": "Value Card",
       "kind": "card",
-      "refersTo": "card-lead",
-      "description": "Blue emphasized approach surface with original static SVG geometry and wrapping title.",
-      "html": "<article class=\"ds-surface ds-approach ds-blue ds-lead\"><svg class=\"ds-ribbon\" viewBox=\"0 0 600 280\" fill=\"none\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"ds-lead-fill\" x1=\"220\" y1=\"290\" x2=\"500\" y2=\"20\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#004ca5\" stop-opacity=\"0\"/><stop offset=\".46\" stop-color=\"#004ca5\" stop-opacity=\".34\"/><stop offset=\".63\" stop-color=\"#00bfff\" stop-opacity=\".52\"/><stop offset=\".71\" stop-color=\"#c1f4ff\" stop-opacity=\".82\"/><stop offset=\".75\" stop-color=\"#00bfff\" stop-opacity=\".26\"/><stop offset=\"1\" stop-color=\"#004ca5\" stop-opacity=\".02\"/></linearGradient><linearGradient id=\"ds-lead-edge\" x1=\"100\" y1=\"280\" x2=\"590\" y2=\"10\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#00bfff\" stop-opacity=\"0\"/><stop offset=\".58\" stop-color=\"#00bfff\"/><stop offset=\".77\" stop-color=\"#c1f4ff\"/><stop offset=\"1\" stop-color=\"#00bfff\" stop-opacity=\".25\"/></linearGradient></defs><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66C493 160 506 208 404 244C295 283 196 250 80 305Z\" fill=\"url(#ds-lead-fill)\"/><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66M80 305C196 250 295 283 404 244C506 208 493 160 620 66\" stroke=\"url(#ds-lead-edge)\" stroke-width=\"1.05\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10C466 112 501 165 420 227C352 278 248 259 135 300Z\" fill=\"url(#ds-lead-fill)\" opacity=\".7\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10\" stroke=\"url(#ds-lead-edge)\" stroke-width=\".8\"/></svg><div class=\"ds-copy\"><h3>Внимание к вашей истории</h3><p>Начинаем с разговора о том, что вас беспокоит</p></div></article>",
-      "css": ".ds-surface{position:relative;isolation:isolate;overflow:hidden;border:1px solid var(--color-border,#34434f);border-radius:var(--radius-card,18px);background:linear-gradient(120deg,#ffffff05,#ffffff00 65%),var(--color-surface,#07131e);color:var(--color-text,#f6f7fa);font-family:var(--font-body,Montserrat,Arial,sans-serif);}.ds-ribbon{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}.ds-copy{position:relative;z-index:1;}.ds-blue{--ds-accent:#00b6f4;border-color:#235673;background-color:#041a2a;}.ds-red{--ds-accent:#fc4874;border-color:#684050;background-color:#18101c;}.ds-cyan{--ds-accent:#13dce4;border-color:#345763;background-color:#071d26;}.ds-approach{padding:20px 30px;min-height:126px;transition:border-color 200ms ease;}.ds-approach .ds-ribbon{width:108%;left:4%;opacity:.8;}.ds-approach h3{margin:0;max-width:410px;font-size:27px;font-weight:750;line-height:1.12;letter-spacing:-.03em;text-wrap:balance;}.ds-approach p{margin:10px 0 0;max-width:330px;font-size:17px;line-height:1.26;font-weight:450;letter-spacing:-.015em;text-wrap:pretty;}.ds-lead{padding:32px 40px;background:radial-gradient(ellipse at 0 0,#0079c87d,transparent 75%),#032036;border-color:#0499d2;}.ds-lead h3{font-size:37px;max-width:420px;text-wrap:wrap;}.ds-lead p{margin-top:22px;font-size:22px;max-width:370px;}@media(hover:hover) and (pointer:fine){.ds-approach:hover{border-color:var(--ds-accent);}}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}"
+      "refersTo": "value-card",
+      "description": "Static personal value with original thin blue arc; no invented hover state.",
+      "html": "<article class=\"ds-value\"><svg class=\"ds-line ds-line-blue\" viewBox=\"0 0 84 40\" fill=\"none\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5 31C20 8 52 7 70 30\"/></svg><h3>Без оценки</h3></article>",
+      "css": ".ds-value{min-height:132px;padding:24px;border-radius:var(--card-radius,16px);background:#0c1018e8;border:1px solid #303847;display:flex;flex-direction:column;justify-content:space-between;color:var(--text,#f8f9fb);font-family:Montserrat,Arial,sans-serif;}.ds-value h3{margin:0;font-size:22px;line-height:1.05;letter-spacing:-.03em;max-width:8ch;}.ds-line{width:84px;height:40px;stroke-width:2;stroke-linecap:round;}.ds-line-blue{stroke:var(--blue,#2455ff);}.ds-line-red{stroke:var(--red,#ff304e);}.ds-line-cyan{stroke:var(--tiffany,#53e5d0);}"
     },
     {
-      "name": "Compact Approach Card",
+      "name": "Approach Note",
       "kind": "card",
-      "refersTo": "card-red",
-      "description": "Compact red approach card with the same fine-border hover vocabulary.",
-      "html": "<article class=\"ds-surface ds-approach ds-red\"><svg class=\"ds-ribbon\" viewBox=\"0 0 600 280\" fill=\"none\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"ds-approach-red-fill\" x1=\"220\" y1=\"290\" x2=\"500\" y2=\"20\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#650e32\" stop-opacity=\"0\"/><stop offset=\".46\" stop-color=\"#650e32\" stop-opacity=\".34\"/><stop offset=\".63\" stop-color=\"#ff3568\" stop-opacity=\".52\"/><stop offset=\".71\" stop-color=\"#ffc2d1\" stop-opacity=\".82\"/><stop offset=\".75\" stop-color=\"#ff3568\" stop-opacity=\".26\"/><stop offset=\"1\" stop-color=\"#650e32\" stop-opacity=\".02\"/></linearGradient><linearGradient id=\"ds-approach-red-edge\" x1=\"100\" y1=\"280\" x2=\"590\" y2=\"10\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#ff3568\" stop-opacity=\"0\"/><stop offset=\".58\" stop-color=\"#ff3568\"/><stop offset=\".77\" stop-color=\"#ffc2d1\"/><stop offset=\"1\" stop-color=\"#ff3568\" stop-opacity=\".25\"/></linearGradient></defs><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66C493 160 506 208 404 244C295 283 196 250 80 305Z\" fill=\"url(#ds-approach-red-fill)\"/><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66M80 305C196 250 295 283 404 244C506 208 493 160 620 66\" stroke=\"url(#ds-approach-red-edge)\" stroke-width=\"1.05\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10C466 112 501 165 420 227C352 278 248 259 135 300Z\" fill=\"url(#ds-approach-red-fill)\" opacity=\".7\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10\" stroke=\"url(#ds-approach-red-edge)\" stroke-width=\".8\"/></svg><div class=\"ds-copy\"><h3>Понимание запроса</h3><p>Обсуждаем, что сейчас важно для вас</p></div></article>",
-      "css": ".ds-surface{position:relative;isolation:isolate;overflow:hidden;border:1px solid var(--color-border,#34434f);border-radius:var(--radius-card,18px);background:linear-gradient(120deg,#ffffff05,#ffffff00 65%),var(--color-surface,#07131e);color:var(--color-text,#f6f7fa);font-family:var(--font-body,Montserrat,Arial,sans-serif);}.ds-ribbon{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}.ds-copy{position:relative;z-index:1;}.ds-blue{--ds-accent:#00b6f4;border-color:#235673;background-color:#041a2a;}.ds-red{--ds-accent:#fc4874;border-color:#684050;background-color:#18101c;}.ds-cyan{--ds-accent:#13dce4;border-color:#345763;background-color:#071d26;}.ds-approach{padding:20px 30px;min-height:126px;transition:border-color 200ms ease;}.ds-approach .ds-ribbon{width:108%;left:4%;opacity:.8;}.ds-approach h3{margin:0;max-width:410px;font-size:27px;font-weight:750;line-height:1.12;letter-spacing:-.03em;text-wrap:balance;}.ds-approach p{margin:10px 0 0;max-width:330px;font-size:17px;line-height:1.26;font-weight:450;letter-spacing:-.015em;text-wrap:pretty;}.ds-lead{padding:32px 40px;background:radial-gradient(ellipse at 0 0,#0079c87d,transparent 75%),#032036;border-color:#0499d2;}.ds-lead h3{font-size:37px;max-width:420px;text-wrap:wrap;}.ds-lead p{margin-top:22px;font-size:22px;max-width:370px;}@media(hover:hover) and (pointer:fine){.ds-approach:hover{border-color:var(--ds-accent);}}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}"
+      "refersTo": "approach-note",
+      "description": "Translucent centered note that overlays the portrait stage.",
+      "html": "<div class=\"ds-note\"><h3>Мой подход</h3><p>Начинаем с разговора о том, что вас беспокоит</p></div>",
+      "css": ".ds-note{min-width:390px;padding:14px 24px;text-align:center;border:1px solid #687286;border-radius:20px;background:#10151ee8;color:var(--text,#f8f9fb);font-family:Montserrat,Arial,sans-serif;}.ds-note h3{margin:0;font-size:26px;color:var(--tiffany,#53e5d0);letter-spacing:-.03em;}.ds-note p{margin:3px 0 0;font-size:15px;}"
     },
     {
       "name": "Topic Card — Closed",
       "kind": "card",
       "refersTo": "topic-toggle",
-      "description": "Source collapsed state with a plus and hidden, inert explanatory panel. App JavaScript supplies exclusive expansion.",
-      "html": "<article class=\"ds-surface ds-topic ds-blue\"><svg class=\"ds-ribbon\" viewBox=\"0 0 600 280\" fill=\"none\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"ds-topic-closed-fill\" x1=\"220\" y1=\"290\" x2=\"500\" y2=\"20\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#004ca5\" stop-opacity=\"0\"/><stop offset=\".46\" stop-color=\"#004ca5\" stop-opacity=\".34\"/><stop offset=\".63\" stop-color=\"#00bfff\" stop-opacity=\".52\"/><stop offset=\".71\" stop-color=\"#c1f4ff\" stop-opacity=\".82\"/><stop offset=\".75\" stop-color=\"#00bfff\" stop-opacity=\".26\"/><stop offset=\"1\" stop-color=\"#004ca5\" stop-opacity=\".02\"/></linearGradient><linearGradient id=\"ds-topic-closed-edge\" x1=\"100\" y1=\"280\" x2=\"590\" y2=\"10\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#00bfff\" stop-opacity=\"0\"/><stop offset=\".58\" stop-color=\"#00bfff\"/><stop offset=\".77\" stop-color=\"#c1f4ff\"/><stop offset=\"1\" stop-color=\"#00bfff\" stop-opacity=\".25\"/></linearGradient></defs><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66C493 160 506 208 404 244C295 283 196 250 80 305Z\" fill=\"url(#ds-topic-closed-fill)\"/><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66M80 305C196 250 295 283 404 244C506 208 493 160 620 66\" stroke=\"url(#ds-topic-closed-edge)\" stroke-width=\"1.05\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10C466 112 501 165 420 227C352 278 248 259 135 300Z\" fill=\"url(#ds-topic-closed-fill)\" opacity=\".7\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10\" stroke=\"url(#ds-topic-closed-edge)\" stroke-width=\".8\"/></svg><h3><button class=\"ds-topic-toggle\" id=\"ds-topic-closed-button\" type=\"button\" aria-expanded=\"false\" aria-controls=\"ds-topic-closed-panel\"><span>Тревога</span><span class=\"ds-plus\" aria-hidden=\"true\"></span></button></h3><div class=\"ds-panel\" id=\"ds-topic-closed-panel\" role=\"region\" aria-labelledby=\"ds-topic-closed-button\" aria-hidden=\"true\" inert><div class=\"ds-panel-inner\"><p>О тревожных мыслях, внутреннем напряжении и переживаниях, которые мешают чувствовать себя спокойно</p></div></div></article>",
-      "css": ".ds-surface{position:relative;isolation:isolate;overflow:hidden;border:1px solid var(--color-border,#34434f);border-radius:var(--radius-card,18px);background:linear-gradient(120deg,#ffffff05,#ffffff00 65%),var(--color-surface,#07131e);color:var(--color-text,#f6f7fa);font-family:var(--font-body,Montserrat,Arial,sans-serif);}.ds-ribbon{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}.ds-copy{position:relative;z-index:1;}.ds-blue{--ds-accent:#00b6f4;border-color:#235673;background-color:#041a2a;}.ds-red{--ds-accent:#fc4874;border-color:#684050;background-color:#18101c;}.ds-cyan{--ds-accent:#13dce4;border-color:#345763;background-color:#071d26;}.ds-topic{transition:border-color 200ms ease,background-color 200ms ease;}.ds-topic .ds-ribbon{inset:auto -4% -35px auto;width:100%;height:140px;opacity:.85;}.ds-topic h3{position:relative;z-index:1;margin:0;}.ds-topic-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:19px 27px;border:0;background:transparent;color:inherit;font-family:var(--font-body,Montserrat,Arial,sans-serif);text-align:left;cursor:pointer;font-size:24px;font-weight:700;line-height:1.15;letter-spacing:-.035em;}.ds-topic-toggle:focus-visible{outline:2px solid var(--color-tiffany,#12e5d5);outline-offset:-6px;border-radius:15px;}.ds-plus{width:17px;height:17px;position:relative;flex:0 0 17px;}.ds-plus::before,.ds-plus::after{content:'';position:absolute;left:0;top:7px;width:17px;height:2px;background:currentColor;border-radius:2px;}.ds-plus::after{transform:rotate(90deg);transition:transform 220ms var(--ease-out,cubic-bezier(.22,1,.36,1)),opacity 160ms ease;}.ds-is-open .ds-plus::after{transform:rotate(0);opacity:0;}.ds-is-open{border-color:var(--ds-accent);}.ds-panel{position:relative;z-index:1;display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows 280ms var(--ease-out,cubic-bezier(.22,1,.36,1)),visibility 280ms;}.ds-is-open .ds-panel{grid-template-rows:1fr;visibility:visible;}.ds-panel-inner{min-height:0;overflow:hidden;}.ds-panel p{margin:0 27px 24px;color:var(--color-muted,#d0d6df);font-size:16px;font-weight:450;line-height:1.55;text-wrap:pretty;}@media(hover:hover) and (pointer:fine){.ds-topic:hover{border-color:var(--ds-accent);}}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}"
+      "description": "Collapsed source state; app.js supplies exclusive opening behavior.",
+      "html": "<article class=\"ds-topic ds-topic-blue\"><h3><button class=\"ds-topic-toggle\" id=\"ds-closed-button\" type=\"button\" aria-expanded=\"false\" aria-controls=\"ds-closed-panel\"><span>Тревога</span><svg class=\"ds-line ds-line-blue\" viewBox=\"0 0 84 40\" fill=\"none\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5 31C20 8 52 7 70 30\"/></svg><span class=\"ds-plus\" aria-hidden=\"true\"></span></button></h3><div class=\"ds-panel\" id=\"ds-closed-panel\" role=\"region\" aria-labelledby=\"ds-closed-button\" aria-hidden=\"true\" inert><div><p>О тревожных мыслях, внутреннем напряжении и переживаниях, которые мешают чувствовать себя спокойно</p></div></div></article>",
+      "css": ".ds-topic{border:1px solid #3d4655;border-radius:var(--card-radius,16px);background:linear-gradient(135deg,#202631,#151a24);overflow:hidden;transition:border-color .18s ease;color:var(--text,#f8f9fb);font-family:Montserrat,Arial,sans-serif;}.ds-topic-blue{--ds-topic-accent:var(--blue,#2455ff);}.ds-topic-red{--ds-topic-accent:var(--red,#ff304e);}.ds-topic-cyan{--ds-topic-accent:var(--tiffany,#53e5d0);}.ds-topic.ds-is-open{border-color:var(--ds-topic-accent);}.ds-topic h3{margin:0;}.ds-topic-toggle{position:relative;width:100%;min-height:105px;padding:22px 20px;border:0;background:transparent;color:inherit;font-family:Montserrat,Arial,sans-serif;text-align:left;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;font-size:20px;font-weight:720;line-height:1.1;letter-spacing:-.03em;}.ds-topic-toggle>span:first-child{max-width:12ch;}.ds-topic-toggle .ds-line{position:absolute;right:38px;bottom:2px;width:90px;}.ds-plus{position:relative;flex:0 0 16px;width:16px;height:16px;margin-top:2px;}.ds-plus::before,.ds-plus::after{content:'';position:absolute;left:0;top:7px;width:16px;height:2px;border-radius:3px;background:#fff;}.ds-plus::after{transform:rotate(90deg);transition:transform .22s var(--ease,cubic-bezier(.22,1,.36,1)),opacity .16s ease;}.ds-is-open .ds-plus::after{transform:none;opacity:0;}.ds-panel{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .28s var(--ease,cubic-bezier(.22,1,.36,1)),visibility .28s;}.ds-is-open .ds-panel{grid-template-rows:1fr;visibility:visible;}.ds-panel>div{min-height:0;overflow:hidden;}.ds-panel p{margin:0;padding:0 20px 20px;color:var(--muted,#c8ccd5);font-size:14px;line-height:1.5;}@media(hover:hover) and (pointer:fine){.ds-topic:hover{border-color:var(--ds-topic-accent);}}.ds-line{width:84px;height:40px;stroke-width:2;stroke-linecap:round;}.ds-line-blue{stroke:var(--blue,#2455ff);}.ds-line-red{stroke:var(--red,#ff304e);}.ds-line-cyan{stroke:var(--tiffany,#53e5d0);}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible,.ds-topic-toggle:focus-visible,.ds-education summary:focus-visible{outline:3px solid var(--tiffany,#53e5d0);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-nav a,.ds-menu span,.ds-topic,.ds-panel,.ds-plus::after,.ds-education summary span::after{animation:none!important;transition:none!important;}}"
     },
     {
       "name": "Topic Card — Expanded",
       "kind": "card",
       "refersTo": "topic-panel",
-      "description": "Source expanded state with accent border, minus and visible description. State transition rules remain included.",
-      "html": "<article class=\"ds-surface ds-topic ds-blue ds-is-open\"><svg class=\"ds-ribbon\" viewBox=\"0 0 600 280\" fill=\"none\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"ds-topic-open-fill\" x1=\"220\" y1=\"290\" x2=\"500\" y2=\"20\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#004ca5\" stop-opacity=\"0\"/><stop offset=\".46\" stop-color=\"#004ca5\" stop-opacity=\".34\"/><stop offset=\".63\" stop-color=\"#00bfff\" stop-opacity=\".52\"/><stop offset=\".71\" stop-color=\"#c1f4ff\" stop-opacity=\".82\"/><stop offset=\".75\" stop-color=\"#00bfff\" stop-opacity=\".26\"/><stop offset=\"1\" stop-color=\"#004ca5\" stop-opacity=\".02\"/></linearGradient><linearGradient id=\"ds-topic-open-edge\" x1=\"100\" y1=\"280\" x2=\"590\" y2=\"10\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#00bfff\" stop-opacity=\"0\"/><stop offset=\".58\" stop-color=\"#00bfff\"/><stop offset=\".77\" stop-color=\"#c1f4ff\"/><stop offset=\"1\" stop-color=\"#00bfff\" stop-opacity=\".25\"/></linearGradient></defs><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66C493 160 506 208 404 244C295 283 196 250 80 305Z\" fill=\"url(#ds-topic-open-fill)\"/><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66M80 305C196 250 295 283 404 244C506 208 493 160 620 66\" stroke=\"url(#ds-topic-open-edge)\" stroke-width=\"1.05\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10C466 112 501 165 420 227C352 278 248 259 135 300Z\" fill=\"url(#ds-topic-open-fill)\" opacity=\".7\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10\" stroke=\"url(#ds-topic-open-edge)\" stroke-width=\".8\"/></svg><h3><button class=\"ds-topic-toggle\" id=\"ds-topic-open-button\" type=\"button\" aria-expanded=\"true\" aria-controls=\"ds-topic-open-panel\"><span>Тревога</span><span class=\"ds-plus\" aria-hidden=\"true\"></span></button></h3><div class=\"ds-panel\" id=\"ds-topic-open-panel\" role=\"region\" aria-labelledby=\"ds-topic-open-button\" aria-hidden=\"false\"><div class=\"ds-panel-inner\"><p>О тревожных мыслях, внутреннем напряжении и переживаниях, которые мешают чувствовать себя спокойно</p></div></div></article>",
-      "css": ".ds-surface{position:relative;isolation:isolate;overflow:hidden;border:1px solid var(--color-border,#34434f);border-radius:var(--radius-card,18px);background:linear-gradient(120deg,#ffffff05,#ffffff00 65%),var(--color-surface,#07131e);color:var(--color-text,#f6f7fa);font-family:var(--font-body,Montserrat,Arial,sans-serif);}.ds-ribbon{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}.ds-copy{position:relative;z-index:1;}.ds-blue{--ds-accent:#00b6f4;border-color:#235673;background-color:#041a2a;}.ds-red{--ds-accent:#fc4874;border-color:#684050;background-color:#18101c;}.ds-cyan{--ds-accent:#13dce4;border-color:#345763;background-color:#071d26;}.ds-topic{transition:border-color 200ms ease,background-color 200ms ease;}.ds-topic .ds-ribbon{inset:auto -4% -35px auto;width:100%;height:140px;opacity:.85;}.ds-topic h3{position:relative;z-index:1;margin:0;}.ds-topic-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:19px 27px;border:0;background:transparent;color:inherit;font-family:var(--font-body,Montserrat,Arial,sans-serif);text-align:left;cursor:pointer;font-size:24px;font-weight:700;line-height:1.15;letter-spacing:-.035em;}.ds-topic-toggle:focus-visible{outline:2px solid var(--color-tiffany,#12e5d5);outline-offset:-6px;border-radius:15px;}.ds-plus{width:17px;height:17px;position:relative;flex:0 0 17px;}.ds-plus::before,.ds-plus::after{content:'';position:absolute;left:0;top:7px;width:17px;height:2px;background:currentColor;border-radius:2px;}.ds-plus::after{transform:rotate(90deg);transition:transform 220ms var(--ease-out,cubic-bezier(.22,1,.36,1)),opacity 160ms ease;}.ds-is-open .ds-plus::after{transform:rotate(0);opacity:0;}.ds-is-open{border-color:var(--ds-accent);}.ds-panel{position:relative;z-index:1;display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows 280ms var(--ease-out,cubic-bezier(.22,1,.36,1)),visibility 280ms;}.ds-is-open .ds-panel{grid-template-rows:1fr;visibility:visible;}.ds-panel-inner{min-height:0;overflow:hidden;}.ds-panel p{margin:0 27px 24px;color:var(--color-muted,#d0d6df);font-size:16px;font-weight:450;line-height:1.55;text-wrap:pretty;}@media(hover:hover) and (pointer:fine){.ds-topic:hover{border-color:var(--ds-accent);}}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-nav a,.ds-menu span,.ds-approach,.ds-topic,.ds-plus::after,.ds-panel{transition:none!important;animation:none!important;}}"
+      "description": "Expanded source state with accent border, minus and visible description.",
+      "html": "<article class=\"ds-topic ds-topic-blue ds-is-open\"><h3><button class=\"ds-topic-toggle\" id=\"ds-open-button\" type=\"button\" aria-expanded=\"true\" aria-controls=\"ds-open-panel\"><span>Тревога</span><svg class=\"ds-line ds-line-blue\" viewBox=\"0 0 84 40\" fill=\"none\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5 31C20 8 52 7 70 30\"/></svg><span class=\"ds-plus\" aria-hidden=\"true\"></span></button></h3><div class=\"ds-panel\" id=\"ds-open-panel\" role=\"region\" aria-labelledby=\"ds-open-button\" aria-hidden=\"false\"><div><p>О тревожных мыслях, внутреннем напряжении и переживаниях, которые мешают чувствовать себя спокойно</p></div></div></article>",
+      "css": ".ds-topic{border:1px solid #3d4655;border-radius:var(--card-radius,16px);background:linear-gradient(135deg,#202631,#151a24);overflow:hidden;transition:border-color .18s ease;color:var(--text,#f8f9fb);font-family:Montserrat,Arial,sans-serif;}.ds-topic-blue{--ds-topic-accent:var(--blue,#2455ff);}.ds-topic-red{--ds-topic-accent:var(--red,#ff304e);}.ds-topic-cyan{--ds-topic-accent:var(--tiffany,#53e5d0);}.ds-topic.ds-is-open{border-color:var(--ds-topic-accent);}.ds-topic h3{margin:0;}.ds-topic-toggle{position:relative;width:100%;min-height:105px;padding:22px 20px;border:0;background:transparent;color:inherit;font-family:Montserrat,Arial,sans-serif;text-align:left;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;font-size:20px;font-weight:720;line-height:1.1;letter-spacing:-.03em;}.ds-topic-toggle>span:first-child{max-width:12ch;}.ds-topic-toggle .ds-line{position:absolute;right:38px;bottom:2px;width:90px;}.ds-plus{position:relative;flex:0 0 16px;width:16px;height:16px;margin-top:2px;}.ds-plus::before,.ds-plus::after{content:'';position:absolute;left:0;top:7px;width:16px;height:2px;border-radius:3px;background:#fff;}.ds-plus::after{transform:rotate(90deg);transition:transform .22s var(--ease,cubic-bezier(.22,1,.36,1)),opacity .16s ease;}.ds-is-open .ds-plus::after{transform:none;opacity:0;}.ds-panel{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .28s var(--ease,cubic-bezier(.22,1,.36,1)),visibility .28s;}.ds-is-open .ds-panel{grid-template-rows:1fr;visibility:visible;}.ds-panel>div{min-height:0;overflow:hidden;}.ds-panel p{margin:0;padding:0 20px 20px;color:var(--muted,#c8ccd5);font-size:14px;line-height:1.5;}@media(hover:hover) and (pointer:fine){.ds-topic:hover{border-color:var(--ds-topic-accent);}}.ds-line{width:84px;height:40px;stroke-width:2;stroke-linecap:round;}.ds-line-blue{stroke:var(--blue,#2455ff);}.ds-line-red{stroke:var(--red,#ff304e);}.ds-line-cyan{stroke:var(--tiffany,#53e5d0);}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible,.ds-topic-toggle:focus-visible,.ds-education summary:focus-visible{outline:3px solid var(--tiffany,#53e5d0);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-nav a,.ds-menu span,.ds-topic,.ds-panel,.ds-plus::after,.ds-education summary span::after{animation:none!important;transition:none!important;}}"
     },
     {
-      "name": "Detail Card",
-      "kind": "card",
-      "refersTo": "detail-card",
-      "description": "Noninteractive education or price surface with an understated static ribbon.",
-      "html": "<article class=\"ds-surface ds-detail ds-blue\"><svg class=\"ds-ribbon\" viewBox=\"0 0 600 280\" fill=\"none\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"ds-detail-fill\" x1=\"220\" y1=\"290\" x2=\"500\" y2=\"20\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#004ca5\" stop-opacity=\"0\"/><stop offset=\".46\" stop-color=\"#004ca5\" stop-opacity=\".34\"/><stop offset=\".63\" stop-color=\"#00bfff\" stop-opacity=\".52\"/><stop offset=\".71\" stop-color=\"#c1f4ff\" stop-opacity=\".82\"/><stop offset=\".75\" stop-color=\"#00bfff\" stop-opacity=\".26\"/><stop offset=\"1\" stop-color=\"#004ca5\" stop-opacity=\".02\"/></linearGradient><linearGradient id=\"ds-detail-edge\" x1=\"100\" y1=\"280\" x2=\"590\" y2=\"10\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#00bfff\" stop-opacity=\"0\"/><stop offset=\".58\" stop-color=\"#00bfff\"/><stop offset=\".77\" stop-color=\"#c1f4ff\"/><stop offset=\"1\" stop-color=\"#00bfff\" stop-opacity=\".25\"/></linearGradient></defs><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66C493 160 506 208 404 244C295 283 196 250 80 305Z\" fill=\"url(#ds-detail-fill)\"/><path d=\"M80 305C250 288 302 98 469 92C533 90 576 113 620 66M80 305C196 250 295 283 404 244C506 208 493 160 620 66\" stroke=\"url(#ds-detail-edge)\" stroke-width=\"1.05\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10C466 112 501 165 420 227C352 278 248 259 135 300Z\" fill=\"url(#ds-detail-fill)\" opacity=\".7\"/><path d=\"M135 300C282 270 337 213 403 150C462 93 483 33 529-10\" stroke=\"url(#ds-detail-edge)\" stroke-width=\".8\"/></svg><div class=\"ds-copy\"><h2>Образование</h2><p>Информация скоро появится</p></div></article>",
-      "css": ".ds-surface{position:relative;isolation:isolate;overflow:hidden;border:1px solid var(--color-border,#34434f);border-radius:var(--radius-card,18px);background:linear-gradient(120deg,#ffffff05,#ffffff00 65%),var(--color-surface,#07131e);color:var(--color-text,#f6f7fa);font-family:var(--font-body,Montserrat,Arial,sans-serif);}.ds-ribbon{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}.ds-copy{position:relative;z-index:1;}.ds-blue{--ds-accent:#00b6f4;border-color:#235673;background-color:#041a2a;}.ds-red{--ds-accent:#fc4874;border-color:#684050;background-color:#18101c;}.ds-cyan{--ds-accent:#13dce4;border-color:#345763;background-color:#071d26;}.ds-detail{min-height:115px;padding:22px 32px;}.ds-detail .ds-ribbon{left:12%;width:100%;opacity:.7;}.ds-detail h2{margin:0;font-size:29px;font-weight:700;line-height:1.2;letter-spacing:-.03em;}.ds-detail p{margin:9px 0 0;font-size:19px;line-height:1.3;font-weight:450;letter-spacing:-.02em;}"
+      "name": "Education Disclosure",
+      "kind": "custom",
+      "refersTo": "education-disclosure",
+      "description": "Native interactive details/summary row; placeholder remains factual.",
+      "html": "<div class=\"ds-education\"><details><summary>Основное образование<span aria-hidden=\"true\"></span></summary><p>Информация скоро появится</p></details></div>",
+      "css": ".ds-education{font-family:Montserrat,Arial,sans-serif;color:var(--text,#f8f9fb);}.ds-education details{border:1px solid #697281;border-radius:10px;background:#ffffff05;}.ds-education summary{min-height:42px;padding:9px 14px;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;font-size:14px;}.ds-education summary::-webkit-details-marker{display:none;}.ds-education summary span{position:relative;width:14px;height:14px;}.ds-education summary span::before,.ds-education summary span::after{content:'';position:absolute;left:0;top:6px;width:14px;height:1.5px;background:#fff;}.ds-education summary span::after{transform:rotate(90deg);transition:transform .2s var(--ease,cubic-bezier(.22,1,.36,1));}.ds-education details[open] summary span::after{transform:none;}.ds-education p{margin:0;padding:0 14px 12px;color:var(--muted,#c8ccd5);font-size:14px;}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-menu:focus-visible,.ds-topic-toggle:focus-visible,.ds-education summary:focus-visible{outline:3px solid var(--tiffany,#53e5d0);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-nav a,.ds-menu span,.ds-topic,.ds-panel,.ds-plus::after,.ds-education summary span::after{animation:none!important;transition:none!important;}}"
     }
   ],
   "narrative": {
-    "northStar": "Portrait and neon ribbons",
-    "overview": "The supplied reference establishes a near-black blue field, an unchanged portrait, large white Montserrat and fine static neon ribbons. “Portrait and neon ribbons” names those existing elements; it is a description of the implemented reference, not a new creative direction.\n\nTiffany capsules carry contact actions, while blue, red and cyan distinguish the translucent card treatments. Borders, low-opacity gradients and clipped vector curves give the page depth. The composition is dense enough to preserve the compact reference while retaining generous introductory type.",
+    "northStar": "Tiffany headline and portrait stage",
+    "overview": "The finished replacement follows the supplied reference: a centered two-line Montserrat statement, a Tiffany highlight on its second line, a red contact action and a static blue light line. “Tiffany headline and portrait stage” describes this implemented visual authority rather than proposing a new concept.\n\nA centered original portrait anchors the large about panel, surrounded by four compact value cards. Dark gradients, rounded containers and thin colored strokes continue through the topic, information and closing panels. The photograph keeps the real person's appearance; the surrounding layout and CSS masks provide the composition.",
     "keyCharacteristics": [
-      "Locally served Montserrat with strong Cyrillic headlines and closely tracked titles.",
-      "Near-black blue surfaces, white text and Tiffany contact capsules.",
-      "Thin colored borders and static blue, red and cyan SVG ribbons.",
-      "An unchanged supplied portrait with CSS edge masks.",
-      "Asymmetric approach cards, compact topic cards and explicit keyboard states."
+      "Locally served Montserrat with heavy, tightly tracked display type.",
+      "Near-black ground, dark rounded panels and Tiffany/blue/red accents.",
+      "A highlighted second headline line and a separate portrait-led about stage.",
+      "Four-column desktop topics, two-column tablet and phone topics.",
+      "Static line illustrations, visible keyboard focus and native disclosure controls."
     ],
     "rules": [
       {
-        "name": "Static Artwork",
-        "body": "Portrait, ribbons and ambient gradients remain still; motion is limited to interface state and one-time section reveals.",
+        "name": "Static Linework",
+        "body": "Keep the hero light line, small SVG illustrations and portrait still; only control states transition.",
         "section": "elevation"
       },
       {
-        "name": "Focus Parity",
-        "body": "Keep visible focus on every keyboard control; topic focus stays inset inside its clipped card.",
+        "name": "Highlight Roles",
+        "body": "Use Tiffany for the hero's highlighted phrase and closing action, blue for the topic heading highlight, and red for the primary contact actions.",
+        "section": "colors"
+      },
+      {
+        "name": "Keyboard Visibility",
+        "body": "Retain the global Tiffany focus outline and the native button and details/summary semantics.",
         "section": "components"
       }
     ],
     "dos": [
-      "Do use the supplied portrait unchanged and blend its edges with CSS masks.",
-      "Do retain Montserrat, the established weight hierarchy and the close title tracking.",
-      "Do use the Tiffany capsule for contact actions and the blue/red/cyan surface treatments for cards.",
-      "Do preserve the 18px card radius and compact 3/3/2 topic arrangement above the tablet breakpoint.",
-      "Do let a topic expand inside its card while closing any previously open topic.",
-      "Do preserve visible keyboard focus and the complete reduced-motion behavior."
+      "Do preserve the original portrait and use CSS masks to integrate its edges.",
+      "Do retain the Montserrat hierarchy and the intentional two-line hero.",
+      "Do preserve four topic columns above 980px and two columns at and below 980px.",
+      "Do retain the four value cards as a two-by-two arrangement on phones.",
+      "Do keep the topic expanded state, minus glyph and accent border synchronized.",
+      "Do preserve visible focus, Russian labels and reduced-motion overrides."
     ],
     "donts": [
-      "Don't replace the real portrait with an AI-generated person.",
-      "Don't animate the portrait, ribbons or background gradients.",
-      "Don't turn the outlined “О себе” label into an interactive filter.",
-      "Don't apply hover-only effects to touch devices.",
-      "Don't add new visual variants, colors or typefaces without updating the source system.",
-      "Don't hide content until a reveal animation runs."
+      "Don't replace the real person with a generated portrait.",
+      "Don't restore the old capsule navigation, 3/3/2 topic grid or folded ribbon artwork.",
+      "Don't animate the portrait, light line, ambient gradients or line illustrations.",
+      "Don't turn value cards into interactive controls.",
+      "Don't invent loading, disabled or validation states that the source does not implement.",
+      "Don't replace the education placeholders with unverified credentials."
     ]
   }
 }
