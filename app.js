@@ -110,7 +110,7 @@
         entry.target.animate([
           { opacity: 0, transform: 'translateY(14px)' },
           { opacity: 1, transform: 'translateY(0)' },
-        ], { duration: 520, delay: Math.min(index * 65, 195), easing: 'cubic-bezier(.22,1,.36,1)', fill: 'backwards' });
+        ], { duration: 950, delay: Math.min(index * 110, 330), easing: 'cubic-bezier(.25,.1,.25,1)', fill: 'backwards' });
       });
     }, { threshold: .12 });
     document.querySelectorAll('main h1, main h2, .value-card h3, .approach-note h3, main p:not(.topic-panel p):not(details p), main .button, .articles-link, .topic-toggle > span:first-child, .footer-links').forEach((element) => reveals.observe(element));
