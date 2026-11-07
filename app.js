@@ -5,8 +5,9 @@
   const primaryContact = content.contact.channels.find((channel) => channel.url);
   const external = 'target="_blank" rel="noopener noreferrer"';
   const contactLink = (label, className = 'button button--red') => `<a class="${className}" href="${escape(primaryContact.url)}" ${external}>${escape(label)}<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M4 14 14 4M7 4h7v7"/></svg></a>`;
-  const lineArt = (tone, shape) => {
-    return `<img class="card-art card-art--${escape(tone)} card-art--${escape(shape)}" src="assets/glass-ribbon.png" alt="" width="1536" height="1024" loading="lazy" decoding="async" aria-hidden="true">`;
+  const lineArt = (tone, shape, frosted = false) => {
+    const source = frosted ? `assets/glass-ribbon-frosted-${tone}.webp` : 'assets/glass-ribbon.webp';
+    return `<img class="card-art card-art--${escape(tone)} card-art--${escape(shape)}" src="${escape(source)}" alt="" width="768" height="512" loading="lazy" decoding="async" aria-hidden="true">`;
   };
 
   document.title = content.title;
@@ -39,7 +40,7 @@
         <section id="topics" class="topics container section" aria-labelledby="topics-heading">
           <h2 id="topics-heading">${escape(content.topics.titleStart)} <span>${escape(content.topics.titleAccent)}</span></h2>
           <div class="topics-grid">${content.topics.items.map((topic, index) => `<article class="topic-card topic-card--${escape(topic.tone)}">
-            ${lineArt(topic.tone, topic.shape)}
+            ${lineArt(topic.tone, topic.shape, true)}
             <h3><button class="topic-toggle" id="topic-button-${index}" type="button" aria-expanded="false" aria-controls="topic-panel-${index}"><span>${escape(topic.title)}</span><span class="plus" aria-hidden="true"></span></button></h3>
             <div class="topic-panel" id="topic-panel-${index}" role="region" aria-labelledby="topic-button-${index}" aria-hidden="true" inert><div><p>${escape(topic.description)}</p></div></div>
           </article>`).join('')}</div>
@@ -99,4 +100,25 @@
     if (event.key === 'Escape' && menuToggle.getAttribute('aria-expanded') === 'true') { closeMenu(); menuToggle.focus(); }
   });
   window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if ('IntersectionObserver' in window && !reducedMotion.matches) {
+    const reveals = new IntersectionObserver((entries) => {
+      entries.filter((entry) => entry.isIntersecting).forEach((entry, index) => {
+        reveals.unobserve(entry.target);
+        if (reducedMotion.matches) return;
+        entry.target.animate([
+          { opacity: 0, transform: 'translateY(14px)' },
+          { opacity: 1, transform: 'translateY(0)' },
+        ], { duration: 520, delay: Math.min(index * 65, 195), easing: 'cubic-bezier(.22,1,.36,1)', fill: 'backwards' });
+      });
+    }, { threshold: .12 });
+    document.querySelectorAll('main h1, main h2, .value-card h3, .approach-note h3, main p:not(.topic-panel p):not(details p), main .button, .articles-link, .topic-toggle > span:first-child, .footer-links').forEach((element) => reveals.observe(element));
+    reducedMotion.addEventListener('change', () => {
+      if (reducedMotion.matches) {
+        reveals.disconnect();
+        document.getAnimations().forEach((animation) => animation.cancel());
+      }
+    });
+  }
 })();

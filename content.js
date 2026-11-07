@@ -9,7 +9,7 @@ window.siteContent = {
     { label: 'Контакты', target: 'contacts' },
   ],
   images: {
-    portrait: 'assets/islam-portrait.png',
+    portrait: 'assets/islam-portrait.webp',
     portraitAlt: 'Психолог Ислам в тёмном костюме с бабочкой, в синем и красном освещении',
     portraitWidth: 1080,
     portraitHeight: 1080,
