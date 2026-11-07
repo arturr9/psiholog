@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local design review evidence and supplied reference mockup
+.impeccable/review/
+.impeccable/reference.png
+.impeccable/verification.md
