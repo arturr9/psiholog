@@ -13,6 +13,13 @@
   document.title = content.title;
   document.querySelector('#site').innerHTML = `
     <div class="page-shell">
+      <div class="ambient-field" aria-hidden="true">
+        <img class="ambient-glow ambient-glow--blue" src="assets/hero-glow.webp" alt="" width="1600" height="533" decoding="async">
+        <img class="ambient-glow ambient-glow--red" src="assets/ambient-red.webp" alt="" width="1200" height="400" loading="lazy" decoding="async">
+        <img class="ambient-glow ambient-glow--tiffany" src="assets/ambient-tiffany.webp" alt="" width="1200" height="400" loading="lazy" decoding="async">
+        <img class="ambient-glow ambient-glow--deep" src="assets/hero-glow.webp" alt="" width="1600" height="533" loading="lazy" decoding="async">
+        <img class="ambient-glow ambient-glow--closing" src="assets/ambient-tiffany.webp" alt="" width="1200" height="400" loading="lazy" decoding="async">
+      </div>
       <header class="site-header container">
         <a class="brand" href="#main">Ислам — психолог<span>.</span></a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="${escape(content.interface.openMenu)}"><span></span><span></span><span></span></button>
