@@ -8,3 +8,6 @@ Thumbs.db
 .impeccable/review/
 .impeccable/reference.png
 .impeccable/verification.md
+
+.vercel
+.env*
