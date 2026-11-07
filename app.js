@@ -26,7 +26,16 @@
           <h1 id="hero-heading"><span>${escape(content.hero.title)}</span><strong>${escape(content.hero.accent)}</strong></h1>
           <p>${escape(content.hero.subtitle)}</p>
           ${contactLink(content.contact.button)}
-          <svg class="hero-wave" viewBox="0 0 1100 150" fill="none" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="hero-line" x1="70" y1="90" x2="1030" y2="70"><stop stop-color="#2455ff" stop-opacity="0"/><stop offset=".24" stop-color="#2455ff"/><stop offset=".7" stop-color="#2ee8ff"/><stop offset="1" stop-color="#2455ff" stop-opacity="0"/></linearGradient><filter id="hero-glow"><feGaussianBlur stdDeviation="9"/></filter></defs><path d="M20 54c185 104 330 79 475 45 158-37 223 20 342-31 72-31 119-65 243-47" stroke="#1757ff" stroke-width="18" opacity=".32" filter="url(#hero-glow)"/><path d="M20 54c185 104 330 79 475 45 158-37 223 20 342-31 72-31 119-65 243-47" stroke="url(#hero-line)" stroke-width="2"/></svg>
+          <svg class="hero-wave" viewBox="0 0 1100 150" fill="none" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="hero-line" x1="30" y1="110" x2="1070" y2="65" gradientUnits="userSpaceOnUse"><stop stop-color="#2455ff" stop-opacity="0"/><stop offset=".22" stop-color="#2455ff"/><stop offset=".62" stop-color="#168fff"/><stop offset=".78" stop-color="#76f5ff"/><stop offset="1" stop-color="#1475ff" stop-opacity="0"/></linearGradient>
+              <linearGradient id="hero-silk" x1="720" y1="130" x2="850" y2="20" gradientUnits="userSpaceOnUse"><stop stop-color="#073298" stop-opacity="0"/><stop offset=".45" stop-color="#0861e5" stop-opacity=".12"/><stop offset=".72" stop-color="#10baff" stop-opacity=".7"/><stop offset="1" stop-color="#04245a" stop-opacity="0"/></linearGradient>
+              <filter id="hero-glow" x="-10%" y="-70%" width="120%" height="240%"><feGaussianBlur stdDeviation="7"/></filter>
+            </defs>
+            <path d="M10 58C190 82 250 132 470 132S740 126 815 92 914 18 1090 16" stroke="url(#hero-line)" stroke-width="15" opacity=".5" filter="url(#hero-glow)"/>
+            <path d="M10 58C190 82 250 132 470 132S740 126 815 92 914 18 1090 16C950 7 925 0 848 21S778 110 670 126C575 141 400 146 270 116S105 64 10 58Z" fill="url(#hero-silk)"/>
+            <path d="M10 58C190 82 250 132 470 132S740 126 815 92 914 18 1090 16" stroke="url(#hero-line)" stroke-width="1.5"/>
+          </svg>
         </section>
         <section id="about" class="about container section" aria-labelledby="about-heading">
           <div class="section-title section-title--center"><h2 id="about-heading">${escape(content.about.title)}</h2><p>${escape(content.about.subtitle)}</p></div>
@@ -99,7 +108,7 @@
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && menuToggle.getAttribute('aria-expanded') === 'true') { closeMenu(); menuToggle.focus(); }
   });
-  window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+  window.matchMedia('(min-width: 981px)').addEventListener('change', closeMenu);
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   if ('IntersectionObserver' in window && !reducedMotion.matches) {
