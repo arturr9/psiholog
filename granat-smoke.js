@@ -107,7 +107,18 @@
       ) / resolution.y;
 
       float t = time * speed;
-      vec3 col = darkColor;
+      float nx = (
+        gl_FragCoord.x - .5 * resolution.x
+      ) / (.5 * resolution.x);
+
+      float spread =
+        smoothstep(-1.05, -.15, nx) *
+        (1. - smoothstep(.15, 1.05, nx));
+
+      vec3 col = mix(darkColor, lightColor, .80);
+      float envelopeFloor = .82;
+      float vignetteAmount = .04;
+
       float accum = 0.;
       vec3 light = vec3(0.);
 
@@ -141,8 +152,8 @@
         );
 
         float envelope =
-          smoothstep(-.95, -.15, uv.x) *
-          (1. - smoothstep(.6, 1.35, uv.x));
+          envelopeFloor +
+          (1. - envelopeFloor) * spread;
 
         envelope *=
           .55 + .45 * fbm(vec3(uv * 1.7, 1.2));
@@ -160,14 +171,23 @@
         accum += a * (1. - accum);
       }
 
+      vec3 ceiling = vec3(.72, .10, .29);
+      float glow = clamp(
+        max(light.r, max(light.g, light.b)) * .9,
+        0.,
+        1.
+      );
+
+      vec3 lit = mix(col, ceiling, glow);
+
       col = mix(
         col,
-        col + light,
-        clamp(accum * 2.2, 0., 1.)
+        lit,
+        clamp(accum * 1.8, 0., 1.)
       );
 
       float vignette =
-        1. - .28 * smoothstep(
+        1. - vignetteAmount * smoothstep(
           .35,
           1.3,
           length(uv)
