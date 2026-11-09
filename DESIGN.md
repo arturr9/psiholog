@@ -1,12 +1,15 @@
 ---
 name: "Ислам — психолог"
-description: "Centered Tiffany-highlight typography, portrait-led panels and static neon linework."
+description: "Centered garnet-smoke highlight typography, portrait-led panels and static neon linework."
 colors:
   bg: "#090c14"
   surface: "#191d27"
   surface-2: "#121722"
   text: "#f8f9fb"
   muted: "#c8ccd5"
+  garnet: "#8e1238"
+  garnet-ink: "#fff5f7"
+  garnet-smoke-dark: "#290b1b"
   tiffany: "#53e5d0"
   blue: "#2455ff"
   red: "#ff304e"
@@ -155,16 +158,18 @@ components:
 
 ## Overview
 
-**Creative North Star: "Tiffany headline and portrait stage"**
+**Creative North Star: "Garnet headline and portrait stage"**
 
-The finished replacement follows the supplied reference: a centered two-line Montserrat statement, a Tiffany highlight on its second line, a red contact action and a static blue light line. “Tiffany headline and portrait stage” describes this implemented visual authority rather than proposing a new concept.
+The finished replacement follows the supplied reference: a centered two-line Montserrat statement, an animated garnet smoke highlight on its second line, a red contact action and a static blue light line. “Garnet headline and portrait stage” describes this implemented visual authority rather than proposing a new concept.
+
+**Обновление от 9 ноября 2026.** По просьбе клиента плашка «Найти опору.» перекрашена из Tiffany в насыщенный гранатовый `#8e1238` со светлым текстом `#fff5f7`. Поверх неё работает `granat-smoke.js` — анимированный WebGL-дым; секция находится по явному классу `.hero-highlight` через `window.GRANAT_SMOKE_SELECTOR`, поиск по тексту оставлен только как запасной вариант. Без WebGL остаётся статичная гранатовая заливка. Остальные Tiffany-акценты сайта сохранены без изменений.
 
 A centered original portrait anchors the large about panel, surrounded by four compact value cards. Dark gradients, rounded containers and thin colored strokes continue through the topic, information and closing panels. The photograph keeps the real person's appearance; the surrounding layout and CSS masks provide the composition.
 
 **Key Characteristics:**
 
 - Locally served Montserrat with heavy, tightly tracked display type.
-- Near-black ground, dark rounded panels and Tiffany/blue/red accents.
+- Near-black ground, dark rounded panels, Tiffany/blue/red accents and a garnet hero highlight.
 - A highlighted second headline line and a separate portrait-led about stage.
 - Four-column desktop topics, two-column tablet and phone topics.
 - Static line illustrations, visible keyboard focus and native disclosure controls.
@@ -173,11 +178,12 @@ This refresh supersedes the earlier visual world. Evidence: `PRODUCT.md`, `.impe
 
 ## Colors
 
-The frontmatter preserves source color values; cool dark neutrals support clear Tiffany, electric-blue and red emphasis.
+The frontmatter preserves source color values; cool dark neutrals support clear Tiffany, electric-blue and red emphasis, while the hero highlight uses its own garnet palette.
 
 ### Primary
 
-- **Tiffany** (`tiffany`): hero highlight, brand dot, closing action, inline contact links, selection and keyboard focus.
+- **Garnet** (`garnet`, `garnet-ink`, `garnet-smoke-dark`): only the «Найти опору.» hero highlight — animated WebGL smoke with a static `#8e1238` fallback and light text.
+- **Tiffany** (`tiffany`): brand dot, closing action, inline contact links, selection and keyboard focus.
 - **Tiffany hover / Tiffany ink** (`tiffany-hover`, `tiffany-ink`): closing-action hover fill and its dark text.
 
 ### Secondary
@@ -197,7 +203,7 @@ The frontmatter preserves source color values; cool dark neutrals support clear 
 - **White / Highlight ink / Supporting text** (`white`, `highlight-ink`, `supporting-text`): red-action text and glyphs, dark hero-highlight text, and supporting hero/information text.
 - **Link hover** (`link-hover`): article/footer link hover.
 
-**The Highlight Roles Rule.** Use Tiffany for the hero's highlighted phrase and closing action, blue for the topic heading highlight, and red for the primary contact actions.
+**The Highlight Roles Rule.** Use garnet smoke for the hero's highlighted phrase, Tiffany for the closing action, brand dot and inline contact links, blue for the topic heading highlight, and red for the primary contact actions.
 
 The sidecar's eight-step tonal strips are synthesized preview metadata, not additional CSS tokens.
 

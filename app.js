@@ -5,6 +5,12 @@
   const primaryContact = content.contact.channels.find((channel) => channel.url);
   const external = 'target="_blank" rel="noopener noreferrer"';
   const contactLink = (label, className = 'button button--red') => `<a class="${className}" href="${escape(primaryContact.url)}" ${external}>${escape(label)}<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M4 14 14 4M7 4h7v7"/></svg></a>`;
+  const educationBody = (group) => {
+    const intro = group.intro ? `<p class="education-intro">${escape(group.intro)}</p>` : '';
+    const lines = group.lines ? `<ul class="education-lines">${group.lines.map((line) => `<li>${escape(line)}</li>`).join('')}</ul>` : '';
+    const text = group.text ? `<p>${escape(group.text)}</p>` : '';
+    return intro + lines + text;
+  };
   const lineArt = (tone, shape, frosted = false) => {
     const source = frosted ? `assets/glass-ribbon-frosted-${tone}.webp` : 'assets/glass-ribbon.webp';
     return `<img class="card-art card-art--${escape(tone)} card-art--${escape(shape)}" src="${escape(source)}" alt="" width="768" height="512" loading="lazy" decoding="async" aria-hidden="true">`;
@@ -30,7 +36,7 @@
       </header>
       <main id="main">
         <section class="hero container" aria-labelledby="hero-heading">
-          <h1 id="hero-heading"><span>${escape(content.hero.title)}</span><strong>${escape(content.hero.accent)}</strong></h1>
+          <h1 id="hero-heading"><span>${escape(content.hero.title)}</span><strong class="hero-highlight"><span>${escape(content.hero.accent)}</span></strong></h1>
           <p>${escape(content.hero.subtitle)}</p>
           ${contactLink(content.contact.button)}
           <img class="hero-wave" src="assets/hero-glow.webp" alt="" width="1600" height="533" aria-hidden="true" decoding="async">
@@ -40,7 +46,7 @@
           <div class="about-stage">
             <div class="about-portrait"><img src="${escape(content.images.portrait)}" alt="${escape(content.images.portraitAlt)}" width="${content.images.portraitWidth}" height="${content.images.portraitHeight}" fetchpriority="high" decoding="async"></div>
             <div class="about-values">${content.about.values.map((value) => `<article class="value-card value-card--${escape(value.tone)}">${lineArt(value.tone, value.shape)}<h3>${escape(value.title)}</h3></article>`).join('')}</div>
-            <div class="approach-note"><h3>${escape(content.about.approachTitle)}</h3><p>${escape(content.about.approachText)}</p></div>
+            <div class="approach-note"><h3>${escape(content.about.approachTitle)}</h3><p class="approach-lines">${content.about.approachLines.map((line) => `<span>${escape(line)}</span>`).join('')}</p></div>
           </div>
           <p class="about-copy">${escape(content.about.text)}</p>
         </section>
@@ -56,7 +62,7 @@
         <section class="information container section" aria-label="Образование и консультация">
           <div id="education" class="education information-column">
             <h2>${escape(content.education.title)}</h2><p class="information-subtitle">${escape(content.education.subtitle)}</p>
-            <div class="education-list">${content.education.groups.map((group) => `<details><summary>${escape(group.title)}<span aria-hidden="true"></span></summary><p>${escape(group.text)}</p></details>`).join('')}</div>
+            <div class="education-list">${content.education.groups.map((group) => `<details><summary>${escape(group.title)}<span aria-hidden="true"></span></summary>${educationBody(group)}</details>`).join('')}</div>
           </div>
           <div id="consultation" class="consultation information-column">
             <h2>${escape(content.consultation.title)}</h2><p class="information-subtitle">${escape(content.consultation.subtitle)}</p>
@@ -71,7 +77,7 @@
       </main>
       <footer class="footer container">
         <a class="brand brand--small" href="#main">Ислам — психолог<span>.</span></a>
-        <div class="footer-links">${content.contact.channels.filter((channel) => channel.url).map((channel) => `<a href="${escape(channel.url)}" ${external}>${escape(channel.name)} · ${escape(channel.handle)}</a>`).join('')}</div>
+        <div class="footer-links">${content.contact.channels.filter((channel) => channel.url).map((channel) => `<a href="${escape(channel.url)}" ${external}>${escape(channel.name)} · ${escape(channel.handle)}</a>`).join('<span class="footer-separator" aria-hidden="true">|</span>')}</div>
       </footer>
     </div>`;
 
