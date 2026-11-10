@@ -24,7 +24,6 @@
         <img class="ambient-glow ambient-glow--red" src="assets/ambient-red.webp" alt="" width="1200" height="400" loading="lazy" decoding="async">
         <img class="ambient-glow ambient-glow--tiffany" src="assets/ambient-tiffany.webp" alt="" width="1200" height="400" loading="lazy" decoding="async">
         <img class="ambient-glow ambient-glow--deep" src="assets/hero-glow.webp" alt="" width="1600" height="533" loading="lazy" decoding="async">
-        <img class="ambient-glow ambient-glow--closing" src="assets/ambient-tiffany.webp" alt="" width="1200" height="400" loading="lazy" decoding="async">
       </div>
       <header class="site-header container">
         <a class="brand" href="#main">Ислам — психолог<span>.</span></a>
@@ -70,12 +69,8 @@
             ${contactLink(content.consultation.button)}
           </div>
         </section>
-        <section id="contacts" class="closing container section" aria-labelledby="contacts-heading">
-          <h2 id="contacts-heading">${escape(content.contacts.title)}</h2>
-          ${contactLink(content.contacts.button, 'button button--tiffany')}
-        </section>
       </main>
-      <footer class="footer container">
+      <footer id="contacts" class="footer container">
         <a class="brand brand--small" href="#main">Ислам — психолог<span>.</span></a>
         <div class="footer-links">${content.contact.channels.filter((channel) => channel.url).map((channel) => `<a href="${escape(channel.url)}" ${external}>${escape(channel.name)} · ${escape(channel.handle)}</a>`).join('<span class="footer-separator" aria-hidden="true">|</span>')}</div>
       </footer>

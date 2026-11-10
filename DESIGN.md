@@ -15,11 +15,8 @@ colors:
   red: "#ff304e"
   line: "#3a4352"
   white: "#fff"
-  highlight-ink: "#07100f"
-  tiffany-ink: "#06110f"
   supporting-text: "#eef0f4"
   red-hover: "#ff4962"
-  tiffany-hover: "#75efdc"
   link-hover: "#83f2e1"
 typography:
   display:
@@ -104,22 +101,14 @@ components:
     padding: "12px 26px"
   button-red-hover:
     backgroundColor: "{colors.red-hover}"
-  button-tiffany:
-    backgroundColor: "{colors.tiffany}"
-    textColor: "{colors.tiffany-ink}"
-    typography: "{typography.button}"
-    rounded: "{rounded.button}"
-    padding: "12px 26px"
-  button-tiffany-hover:
-    backgroundColor: "{colors.tiffany-hover}"
   navigation:
     textColor: "{colors.text}"
     typography: "{typography.label}"
   header-action:
     textColor: "{colors.tiffany}"
   hero-highlight:
-    backgroundColor: "{colors.tiffany}"
-    textColor: "{colors.highlight-ink}"
+    backgroundColor: "{colors.garnet}"
+    textColor: "{colors.garnet-ink}"
     rounded: "{rounded.hero-highlight}"
     padding: "2px 20px 8px"
   value-card:
@@ -164,7 +153,7 @@ The finished replacement follows the supplied reference: a centered two-line Mon
 
 **Обновление от 9 ноября 2026.** По просьбе клиента плашка «Найти опору.» перекрашена из Tiffany в насыщенный гранатовый `#8e1238` со светлым текстом `#fff5f7`. Поверх неё работает `granat-smoke.js` — анимированный WebGL-дым; секция находится по явному классу `.hero-highlight` через `window.GRANAT_SMOKE_SELECTOR`, поиск по тексту оставлен только как запасной вариант. Без WebGL остаётся статичная гранатовая заливка. Остальные Tiffany-акценты сайта сохранены без изменений.
 
-A centered original portrait anchors the large about panel, surrounded by four compact value cards. Dark gradients, rounded containers and thin colored strokes continue through the topic, information and closing panels. The photograph keeps the real person's appearance; the surrounding layout and CSS masks provide the composition.
+A centered original portrait anchors the large about panel, surrounded by four compact value cards. Dark gradients, rounded containers and thin colored strokes continue through the topic and information panels. The photograph keeps the real person's appearance; the surrounding layout and CSS masks provide the composition.
 
 **Key Characteristics:**
 
@@ -183,8 +172,7 @@ The frontmatter preserves source color values; cool dark neutrals support clear 
 ### Primary
 
 - **Garnet** (`garnet`, `garnet-ink`, `garnet-smoke-dark`): only the «Найти опору.» hero highlight — animated WebGL smoke with a static `#8e1238` fallback and light text.
-- **Tiffany** (`tiffany`): brand dot, closing action, inline contact links, selection and keyboard focus.
-- **Tiffany hover / Tiffany ink** (`tiffany-hover`, `tiffany-ink`): closing-action hover fill and its dark text.
+- **Tiffany** (`tiffany`): brand dot, inline contact links, selection and keyboard focus.
 
 ### Secondary
 
@@ -200,10 +188,10 @@ The frontmatter preserves source color values; cool dark neutrals support clear 
 - **Night ground** (`bg`): page and browser theme background.
 - **Panel / Secondary panel / Structural line** (`surface`, `surface-2`, `line`): declared source palette primitives. Finished panel fills and borders use the specific gradients and literal values recorded in component snippets; these three properties are not directly assigned to a rendered selector.
 - **Main text / Muted text** (`text`, `muted`): default light type and lower-emphasis descriptions.
-- **White / Highlight ink / Supporting text** (`white`, `highlight-ink`, `supporting-text`): red-action text and glyphs, dark hero-highlight text, and supporting hero/information text.
+- **White / Supporting text** (`white`, `supporting-text`): red-action text and glyphs, and supporting hero/information text.
 - **Link hover** (`link-hover`): article/footer link hover.
 
-**The Highlight Roles Rule.** Use garnet smoke for the hero's highlighted phrase, Tiffany for the closing action, brand dot and inline contact links, blue for the topic heading highlight, and red for the primary contact actions.
+**The Highlight Roles Rule.** Use garnet smoke for the hero's highlighted phrase, Tiffany for the brand dot and inline contact links, blue for the topic heading highlight, and red for the primary contact actions.
 
 The sidecar's eight-step tonal strips are synthesized preview metadata, not additional CSS tokens.
 
@@ -215,13 +203,13 @@ The sidecar's eight-step tonal strips are synthesized preview metadata, not addi
 The local variable font covers weights (100–900), uses `font-display: swap`, and is preloaded in `index.html`. Heavy display text and close tracking establish the hierarchy; regular explanatory text remains quieter. No mono or serif family is implemented.
 
 - **Display:** `display` describes the two-line hero. Its second line uses the same weight (820), line-height (1), and a Tiffany rectangle.
-- **Headline:** `headline` describes the centered about title. Topic and information headings have their own frontmatter roles. The closing heading uses (clamp(40px, 5vw, 64px)), weight (820), line-height (1), tracking (-0.04em).
+- **Headline:** `headline` describes the centered about title. Topic and information headings have their own frontmatter roles.
 - **Value title / Topic title:** `value-title` and `topic-title` distinguish compact static statements from expandable topic controls.
 - **Subtitle:** `subtitle` describes the hero paragraph, balanced and limited to (600px). About subtitles are (20px); information subtitles are (16px).
 - **Body:** `body` describes the about paragraph, centered within (760px). `panel-body` describes expanded topics.
 - **Label / Button:** `label` is ordinary desktop navigation; `button` is the primary contact control. Header contact links are (14px), weight (700). Brand type is (24px), weight (800), tracking (-0.035em).
 
-Mobile overrides are explicit, rather than a single proportional scale: hero (clamp(40px, 12vw, 58px)), about heading (36px), topic heading (34px), information heading (29px), closing heading (36px), topic controls (14px), topic descriptions (12px), about copy (13px). At (360px) or narrower, the hero is (38px), topic controls (13px) and value titles (14px).
+Mobile overrides are explicit, rather than a single proportional scale: hero (clamp(40px, 12vw, 58px)), about heading (36px), topic heading (34px), information heading (29px), topic controls (14px), topic descriptions (12px), about copy (13px). At (360px) or narrower, the hero is (38px), topic controls (13px) and value titles (14px).
 
 ## Layout
 
@@ -231,7 +219,7 @@ The centered hero is at least (500px) tall with (40px) top padding. Its subtitle
 
 The about panel has (36px 30px 0) padding. Its stage is (520px) tall: the portrait is centered absolutely at (58%) width, capped at (650px), with its bottom at (-52px). Four value cards occupy two (180px) columns around it; the stage note sits centered near the lower edge. This is an overlapping stage, not an equal-column text/photo layout.
 
-Topics use **four equal columns**, (14px) gaps, (34px) top spacing and start alignment. There are eight topics. The combined information panel uses **two equal columns**, (32px 42px) padding and a vertical divider before consultation. The closing panel centers its title and action vertically; the footer returns to a horizontal brand/contact row.
+Topics use **four equal columns**, (14px) gaps, (34px) top spacing and start alignment. There are eight topics. The combined information panel uses **two equal columns**, (32px 42px) padding and a vertical divider before consultation. The footer returns to a horizontal brand/contact row.
 
 | Source query | Finished responsive behavior |
 | --- | --- |
@@ -241,11 +229,11 @@ Topics use **four equal columns**, (14px) gaps, (34px) top spacing and start ali
 
 At (760px) and below, the about stage becomes a vertical flex layout: portrait, overlapping approach note, then the two-by-two value grid. The portrait extends beyond panel padding with width `calc(100% + 28px)` and margins (-14px). The note overlaps it by (-42px); value gaps are (8px), minimum height (96px), padding (12px). The about copy becomes left aligned.
 
-Phone topics **remain two columns**, with (8px) gaps, (20px) top spacing and (84px) minimum toggle height. The information panel becomes one column with (24px 16px) padding; consultation moves below a horizontal divider. The closing panel uses (170px) minimum height and (28px 14px) padding. Footer text reduces to (13px) brand and (10px) contact.
+Phone topics **remain two columns**, with (8px) gaps, (20px) top spacing and (84px) minimum toggle height. The information panel becomes one column with (24px 16px) padding; consultation moves below a horizontal divider. Footer text reduces to (13px) brand and (10px) contact.
 
 ## Elevation & Depth
 
-Dark gradient fills, subtle outlines and localized light provide depth. The about panel uses a broad blue-gray radial field; topics, information and closing panels use restrained dark linear gradients. The portrait has intersecting edge masks on desktop and a bottom fade on phones.
+Dark gradient fills, subtle outlines and localized light provide depth. The about panel uses a broad blue-gray radial field; topic and information panels use restrained dark linear gradients. The portrait has intersecting edge masks on desktop and a bottom fade on phones.
 
 ### Shadow Vocabulary
 
@@ -269,9 +257,9 @@ The hero highlight has a (24px) corner radius on desktop and (13px) on phones; t
 
 ### Buttons
 
-Red contact actions and the Tiffany closing action share (52px) minimum height, (9px) icon gap and frontmatter padding. All include an inline diagonal arrow. Fine-pointer hover lifts buttons by (-2px); red changes fill and glow, while Tiffany changes fill. The declared active state scales to (0.97). Transform transitions take (160ms) with the source ease, fill (180ms ease), shadow (200ms ease).
+Red contact actions share (52px) minimum height, (9px) icon gap and frontmatter padding. All include an inline diagonal arrow. Fine-pointer hover lifts buttons by (-2px); red changes fill and glow. The declared active state scales to (0.97). Transform transitions take (160ms) with the source ease, fill (180ms ease), shadow (200ms ease).
 
-Hero and closing actions become (46px) minimum height and (14px) text on phones; consultation becomes (44px) and (13px). The closing action has (270px) minimum width on desktop and (210px) on phones. No disabled, loading or form-validation states exist.
+Hero actions become (46px) minimum height and (14px) text on phones; consultation becomes (44px) and (13px). No disabled, loading or form-validation states exist.
 
 ### Cards / Containers
 
