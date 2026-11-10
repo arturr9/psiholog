@@ -12,7 +12,7 @@ Delegated by the explicit brief: plain HTML, CSS and JavaScript, with a Node.js 
 Russian single-page introduction to psychologist Islam. Visitors read about him, his approach and informational topics, then contact @islmchanel on Instagram, @minaki10 in Telegram or via VK.
 
 ## Capabilities and Constraints
-Use all supplied Russian copy without inventing qualifications, methods, prices, outcomes or services. Eight exclusive expandable topics; anchor navigation; responsive desktop, tablet and mobile layouts; keyboard controls and reduced motion. Since 9 November 2026 the Education section contains the client-supplied qualification, professional status and therapy approaches. The empty basic-education block was removed on 10 November 2026 at the client's request; only the price still reads “Информация скоро появится”. No forms, payment, testimonials, FAQ or extra sections. Local delivery only; publishing requires a separate user request.
+Use all supplied Russian copy without inventing qualifications, methods, prices, outcomes or services. Eight exclusive expandable topics; anchor navigation; responsive desktop, tablet and mobile layouts; keyboard controls and reduced motion. Since 9 November 2026 the Education section contains the client-supplied qualification, professional status and therapy approaches. The empty basic-education block was removed on 10 November 2026 at the client's request. The price placeholder was replaced the same day with client-supplied copy directing visitors to discuss the conditions directly with the psychologist. No forms, payment, testimonials, FAQ or extra sections. Local delivery only; publishing requires a separate user request.
 
 ## Brand Commitments
 User specifies near-black/deep-blue surfaces, electric blue, red and Tiffany accents, locally served Montserrat, large typography, asymmetrical cards, static abstract neon lines. Since 9 November 2026 the «Найти опору.» hero highlight uses a garnet `#8e1238` animated smoke layer instead of Tiffany; other Tiffany accents are unchanged. Preserve the actual person's appearance and original photograph; never generate a substitute person.
@@ -23,7 +23,7 @@ User specifies near-black/deep-blue surfaces, electric blue, red and Tiffany acc
 
 ## Обновление от 10 ноября 2026
 
-По просьбе клиента из раздела «Образование» полностью удалён пустой блок «Основное образование» с текстом «Информация скоро появится». Остались три раскрывающихся блока: «Квалификация», «Профессиональный статус» и «Подходы в терапии». Блок «Консультация» и его временный текст о стоимости не изменились — клиент по нему решения не давал.
+По просьбе клиента из раздела «Образование» полностью удалён пустой блок «Основное образование» с текстом «Информация скоро появится». Остались три раскрывающихся блока: «Квалификация», «Профессиональный статус» и «Подходы в терапии». Позже в тот же день в блоке «Консультация» временный текст «Информация скоро появится» заменён на «Узнать подробности и обсудить условия консультации можно напрямую с психологом.». Подзаголовок «Стоимость и формат» и кнопка «Уточнить условия» сохранены без изменений.
 
 ## Evidence on Hand
 Full brief: C:/Users/Артур/.codex/attachments/16025fc4-29ed-4303-9ab9-90c20e6ca485/Вставленный текст.txt.
